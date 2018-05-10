@@ -1,0 +1,211 @@
+header{
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 0;
+  position: relative;
+  margin-bottom: 30px;
+  height: 95px;
+
+  align-items: center;
+  align-content: center;
+  .main_nav{
+    margin-left: 45px;
+    display: flex;
+    a{
+      font-size: 14px;
+      font-weight: bold;
+      color: #929292;
+      text-transform: uppercase;
+      margin-right: 20px;
+      line-height: 40px;
+      letter-spacing: 2.24px;
+      &:hover{
+        text-decoration: none;
+        color: #e20e79;;
+      }
+    }
+  }
+}
+
+.language-select {
+  display: inline-flex;
+  flex-direction: column;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 5px;
+  position: relative;
+  z-index: 10;
+  &:before{
+    content: "";
+    width: 10px;
+    height: 9px;
+    background-image: url(../img/svg/caret-down.svg);
+    display: inline-block;
+
+    background-size: 6px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 3px;
+    z-index: 1;
+    top: 12px;
+  }
+
+
+  li {
+    text-align: left;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #898788;
+    order: 2;
+    padding: 5px 10px;
+    font-size: 14px;
+    min-height: 30px;
+
+
+    i{
+      margin-right: 5px;
+      position: relative;
+      top: -2px;
+      filter: grayscale(100%);
+    }
+  }
+  li:hover {
+    cursor: pointer;
+    background-color: #e20e79;
+    color: #fff;
+
+
+  }
+}
+.language-select.open {
+  height: auto;
+  background-color: #f1ecec;
+}
+.language-select li.active {
+  order: 1;
+  pointer-events: none;
+  position: relative;
+  margin-right: 10px;
+  &:hover{
+    color: #e20e79;
+  }
+
+
+}
+
+
+.money-select {
+  display: inline-flex;
+  flex-direction: column;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 5px;
+  position: relative;
+  z-index: 10;
+  &:before{
+    content: "";
+    width: 10px;
+    height: 9px;
+    background-image: url(../img/svg/caret-down.svg);
+    display: inline-block;
+
+    background-size: 6px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 3px;
+    z-index: 1;
+    top: 12px;
+  }
+
+
+  li {
+    text-align: left;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #898788;
+    order: 2;
+    padding: 5px 10px;
+    font-size: 14px;
+    min-height: 30px;
+
+
+    i{
+      margin-right: 5px;
+      position: relative;
+      top: -2px;
+      filter: grayscale(100%);
+    }
+  }
+  li:hover {
+    cursor: pointer;
+    background-color: #e20e79;
+    color: #fff;
+
+
+  }
+}
+.money-select.open {
+  height: auto;
+  background-color: #f1ecec;
+}
+.money-select li.active {
+  order: 1;
+  pointer-events: none;
+  position: relative;
+  margin-right: 10px;
+
+
+}
+
+.header_userblock{
+  display: flex;
+  width: auto;
+  float: right;
+  margin-top: -5px;
+  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+  }
+  .user_name{
+    color: #e20e79;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    &:before{
+      content: "";
+      width: 10px;
+      height: 9px;
+      background-image: url(../img/svg/caret-down.svg);
+      display: inline-block;
+
+      background-size: 6px;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: -1px;
+      z-index: 1;
+      top: 9px;
+    }
+
+
+  }
+  .user_mail{
+    color: #a4a4a4;
+
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+}
