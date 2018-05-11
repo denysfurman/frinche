@@ -4,15 +4,128 @@ footer{
   background: #fff;
   margin-top: 100px;
   .footer_nav{
+    margin-bottom: 50px;
     a{
       font-size: 14px;
       font-weight: bold;
-      margin-bottom: 25px;
+      margin-bottom: 10px;
+      display: inline-block;
+      width: 100%;
       color: #282828;
       text-transform: uppercase;
     }
+  }
+  .site_private{
+    margin-top: -10px;
+    p{
+      color: #8f8f8f;
 
+      font-size: 12px;
+      font-weight: 400;
+    }
+    a{
+      display: inline-block;
+      color: #8f8f8f;
+
+      font-size: 12px;
+      font-weight: 400;
+      text-decoration: underline;
+      margin-right: 10px;
+      &:hover{
+        text-decoration: none;
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+    }
   }
 
 
+}
+.follow_title{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.follow_us{
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  align-content: center;
+  li{
+    margin-right: 15px;
+    a{
+      color: #c1c1c1;
+      font-size: 23px;
+      &:hover{
+        opacity: 0.6;
+      }
+      i{
+        img{
+          width: 23px;
+          position: relative;
+          top: -3px;
+        }
+      }
+    }
+
+  }
+}
+
+.footer_subscribe{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  span{
+    display: inline-block;
+    width: 239px;
+    color: #282828;
+    font-weight: 700;
+    font-size: 14px;
+    padding-right: 21px;
+    line-height: 17px;
+    margin-top: 37px;
+    position: relative;
+    top: -2px
+
+  }
+  >div{
+    margin-top: 26px;
+  }
+  button{
+    width: 46px;
+    height: 40px;
+    background-color: #e20e79;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    &:hover{
+      text-decoration: none;
+      color: #fff;
+      background-color: #ba005d;
+    }
+    img{
+      width: 20px;
+    }
+  }
+  input{
+    width: 190px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+    position: relative;
+    margin-right: -4px;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #7f7f7f;
+  }
 }
