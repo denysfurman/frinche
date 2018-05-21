@@ -141,5 +141,140 @@
   justify-content: flex-end;
 }
 
+.category_settings_form_buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.category_settings_form_buttons{
+  .button_pink{
 
 
+    padding: 0 40px;
+    margin-left: 10px;
+  }
+  .button_trans.big{
+    padding: 0 40px;
+  }
+}
+
+
+.registration_settings_form{
+  .edit{
+    margin-right: 10px;
+    display: inline-block;
+    height: 46px;
+    background-color: #f7f7f7;
+    color: #7d7d7d;
+    padding: 0 10px;
+    width: 100%;
+    text-align: center;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 200;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    i{
+      margin-right: 10px;
+      position: relative;
+      top: -3px;
+      img{
+        width: 19px;
+      }
+    }
+    &:hover{
+      text-decoration: none;
+      background-color: #d6d6d6;
+    }
+  }
+}
+
+
+.advance_setting{
+  display: inline-block;
+  width: 100%;
+  background-color: #efefef;
+  label{
+    i{
+      color: #333;
+    }
+  }
+
+  >span{
+    color: #e20e79;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    &.active{
+      i{
+        img{
+          transform: rotateZ(-180deg);
+        }
+      }
+    }
+    i{
+      float: right;
+      img{
+        width: 12px;
+      }
+    }
+
+  }
+  .hidden_advance{
+    display: none;
+    padding: 0 20px 20px;
+
+    .pl_30{
+      padding-left: 27px;
+    }
+  }
+}
+.to{
+  display: block;
+  text-align: center;
+  line-height: 46px;
+  font-size: 14px;
+}
+.registration_period_inf span{
+  width: 190px;
+  height: 46px;
+  border: 1px solid #bababa;
+  background-color: #ffffff;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 5px 0;
+  i{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #a3a3a3;
+    letter-spacing: 0.6px;
+    padding-right: 10px;
+    font-style: normal;
+    margin-right: 10px;
+    border-right: 1px solid #a3a3a3;;
+
+  }
+  time{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #a3a3a3;
+    letter-spacing: 0.6px;
+  }
+}
+#cd-menu-trigger{
+  display: none;
+}

@@ -25,6 +25,17 @@ header{
       }
     }
   }
+  .search{
+    margin-left: 40px;
+    &:hover{
+      opacity: 0.7;
+    }
+    img{
+      width: 15px;
+      position: relative;
+      top: -2px
+    }
+  }
 }
 
 .language-select {
@@ -163,12 +174,15 @@ header{
 
 
 }
+.search.mob{
+  display: none;
+}
 
 .header_userblock{
   display: flex;
   width: auto;
   float: right;
-  margin-top: -5px;
+  margin-top: -7px;
   img{
     width: 55px;
     height: 55px;

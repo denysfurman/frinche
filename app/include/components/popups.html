@@ -1,60 +1,302 @@
 <div id="category_settings_popup" class="fsb_popup">
+    <div class="grid-x grid-padding-x">
 
-    <h2>Category Settings</h2>
-    <form action="" class="category_settings_form">
-        <div class="input_wr">
-            <label >Category Name</label>
-            <input type="text">
-            <label for="chek_1"><input type="checkbox" id="chek_1" class="form_style"> Omit Category Name (Not available if more than one category)</label>
-        </div>
-        <div class="input_wr">
-            <label >Location</label>
-            <select name="#" id="" class="form_style">
-                <option value="Please select">Please select</option>
-                <option value="select 1">Select 1</option>
-                <option value="select 2">Select 2</option>
-                <option value="select 3">Select 2</option>
-            </select>
-        </div>
-        <div class="input_wr">
-            <label>Category Start Date and Time</label>
-            <div class="row">
-                <div class="col-md-3">
-                    <select  class="form_style">
-                        <option value="Please select">Select time</option>
-                        <option value="select 1">Select 1</option>
-                        <option value="select 2">Select 2</option>
-                        <option value="select 3">Select 2</option>
-                    </select>
+        <h2>Category Settings</h2>
+        <form action="" class="category_settings_form">
+
+            <div class="input_wr">
+                <label>Category Name</label>
+                <input type="text">
+                <label for="chek_1"><input type="checkbox" id="chek_1" class="form_style"> Omit Category Name (Not available
+                    if more than one category)</label>
+            </div>
+            <div class="input_wr">
+                <label>Location</label>
+                <select name="#">
+                    <option value="Please select">Please select</option>
+                    <option value="select 1">Select 1</option>
+                    <option value="select 2">Select 2</option>
+                    <option value="select 3">Select 2</option>
+                </select>
+            </div>
+            <div class="input_wr">
+                <label>Category Start Date and Time</label>
+
+                <div class="grid-x grid-padding-x">
+                    <div class="large-3 cell medium-12 ">
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker" placeholder="MM/DD/YYYY">
+
+                        </div>
+                    </div>
+                    <div class="large-3 cell medium-12">
+                        <select>
+                            <option value="Please select">Select time</option>
+                            <option value="select 1">Select 1</option>
+                            <option value="select 2">Select 2</option>
+                            <option value="select 3">Select 2</option>
+                        </select>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="input_wr">
-            <label >Activity Type</label>
-            <select name="#" id="" class="form_style">
-                <option value="Please select">Please select</option>
-                <option value="select 1">Select 1</option>
-                <option value="select 2">Select 2</option>
-                <option value="select 3">Select 2</option>
-            </select>
-        </div>
+            <div class="input_wr">
+                <label>Activity Type</label>
+                <select name="#" >
+                    <option value="Please select">Please select</option>
+                    <option value="select 1">Select 1</option>
+                    <option value="select 2">Select 2</option>
+                    <option value="select 3">Select 2</option>
+                </select>
+            </div>
 
-        <div class="input_wr">
-            <label >Distance</label>
-            <select name="#" id="" class="form_style">
-                <option value="Please select">Please select</option>
-                <option value="select 1">Select 1</option>
-                <option value="select 2">Select 2</option>
-                <option value="select 3">Select 2</option>
-
-
-            </select>
-        </div>
+            <div class="input_wr">
+                <label>Distance</label>
+                <select name="#">
+                    <option value="Please select">Please select</option>
+                    <option value="select 1">Select 1</option>
+                    <option value="select 2">Select 2</option>
+                    <option value="select 3">Select 2</option>
 
 
-    </form>
+                </select>
+            </div>
+
+            <div class="input_wr">
+                <label>Additional Description</label>
+                <textarea></textarea>
+            </div>
+
+            <div class="category_settings_form_buttons">
+                <a href="#" class="button_trans big">Cancel</a>
+                <button class="button_pink big">Save</button>
+            </div>
 
 
+        </form>
+    </div>
+
+
+</div>
+
+
+<!--   ------------------   -->
+
+<div id="registration_settings_popup" class="fsb_popup">
+    <div class="grid-x grid-padding-x">
+        <h2>Registration Type Settings</h2>
+        <form action="" class="registration_settings_form">
+            <div class="input_wr">
+                <label>Registration Type Name</label>
+                <input type="text">
+                <label for="chek_1"><input type="checkbox" id="chek_1" class="form_style">Omit Registration Type Name (Not
+                    available if more than one category)</label>
+            </div>
+            <div class="input_wr">
+                <label>Type</label>
+                <select name="#" id="">
+                    <option value="Please select">Please select</option>
+                    <option value="select 1">Select 1</option>
+                    <option value="select 2">Select 2</option>
+                    <option value="select 3">Select 2</option>
+                </select>
+            </div>
+
+            <div class="input_wr">
+                <label>Price</label>
+                <div class="grid-x grid-padding-x">
+                    <div class="medium-3 cell">
+                        <input type="text" pattern="\d*" required>
+                    </div>
+                    <div class="medium-2 cell">
+                        <select name="#" id="">
+                            <option value="Please select">USD</option>
+                            <option value="select 1">EUR</option>
+
+                        </select>
+                    </div>
+                </div>
+                <label for="chek_3"><input type="checkbox" checked id="chek_3" class="form_style"> Price included
+                    donation</label>
+
+            </div>
+
+            <div class="input_wr">
+                <label>Registration Period</label>
+                <div class="grid-x grid-padding-x">
+                    <div class="medium-3 cell">
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker2" class="datapicker"
+                                   placeholder="MM/DD/YYYY">
+
+                        </div>
+                    </div>
+                    <div class="medium-3 cell">
+                        <select>
+                            <option value="Please select">Select time</option>
+                            <option value="select 1">Select 1</option>
+                            <option value="select 2">Select 2</option>
+                            <option value="select 3">Select 2</option>
+                        </select>
+                    </div>
+                    <div class="medium-1 cell">
+                        <span class="to">From</span>
+                    </div>
+
+                    <div class="medium-4 cell">
+
+                        <div class="registration_period_inf">
+                            <span><i>8 May 2018</i> <time>15:10</time></span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="grid-x grid-padding-x">
+                    <div class="medium-3 cell">
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker3" class="datapicker"
+                                   placeholder="MM/DD/YYYY">
+
+                        </div>
+                    </div>
+                    <div class="medium-3 cell">
+                        <select>
+                            <option value="Please select">Select time</option>
+                            <option value="select 1">Select 1</option>
+                            <option value="select 2">Select 2</option>
+                            <option value="select 3">Select 2</option>
+                        </select>
+                    </div>
+                    <div class="medium-1 cell">
+                        <span class="to">To</span>
+                    </div>
+
+                    <div class="medium-4 cell">
+
+                        <div class="registration_period_inf">
+                            <span><i>8 May 2018</i> <time>15:10</time></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input_wr">
+                <label>Registration Form</label>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-10 medium-9 cell">
+                        <select>
+                            <option value="Please select">Please select</option>
+                            <option value="select 1">Select 1</option>
+                            <option value="select 2">Select 2</option>
+                            <option value="select 3">Select 2</option>
+                        </select>
+                    </div>
+                    <div class="large-2 medium-3 cell">
+                        <a href="#" class="edit"><i><img src="img/svg/edit.svg" alt=""></i>Edit</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="input_wr">
+                <label>Quota</label>
+                <input type="text">
+
+            </div>
+            <div class="input_wr">
+                <label>Description</label>
+                <textarea></textarea>
+            </div>
+
+            <div class="advance_setting">
+                <span>Advanced Settings <i><img src="img/svg/caret-down.svg" alt=""></i></span>
+                <div class="hidden_advance">
+                    <div class="input_wr">
+                        <label>Custom Title for the Participants</label>
+                        <input type="text">
+
+                    </div>
+                    <div class="input_wr">
+                        <label>Gender Setting</label>
+                        <select name="#" id="">
+                            <option value="Please select">All genders</option>
+                            <option value="select 1">Select 1</option>
+                            <option value="select 2">Select 2</option>
+                            <option value="select 3">Select 2</option>
+                        </select>
+                    </div>
+
+                    <div class="input_wr">
+                        <label>Age Setting</label>
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-3 medium-5 cell">
+                                <input type="text">
+                            </div>
+                            <div class="large-1 medium-2 cell">
+                                <span class="to">to</span>
+                            </div>
+                            <div class="large-3 medium-5 cell">
+                                <input type="text">
+                            </div>
+                            <div class="large-5">
+                                <select  class="  event_start">
+                                    <option value="Please select">on Event Start Day</option>
+                                    <option value="select 1">Select 1</option>
+                                    <option value="select 2">Select 2</option>
+                                    <option value="select 3">Select 2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input_wr">
+                        <label>Availability</label>
+                        <select>
+                            <option value="Please select">All genders</option>
+                            <option value="select 1">Select 1</option>
+                            <option value="select 2">Select 2</option>
+                            <option value="select 3">Select 2</option>
+                        </select>
+                    </div>
+
+                    <div class="input_wr">
+
+                        <label for="chek_7"><input type="checkbox" checked id="chek_7" class="form_style"> Allow
+                            Registration Type Transfer</label>
+                        <div class="pl_30">
+                            <div class="input_wr">
+                                <div class="grid-x grid-padding-x">
+
+                                    <div class="large-5 cell">
+                                        <label for="">Transfer Deadline</label>
+                                        <div class="input-group date">
+                                            <input type="text" class="form-control" id="datepicker4" class="datapicker"
+                                                   placeholder="MM/DD/YYYY">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <label for="chek_5"><input type="checkbox" checked id="chek_5" class="form_style"> Allow Self
+                            Edit</label>
+                        <label for="chek_6"><input type="checkbox" checked id="chek_6" class="form_style"> Allow Register
+                            for Others
+                            <a href="#"><i class="fas fa-info-circle"></i></a> </label>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="category_settings_form_buttons">
+                <a href="#" class="button_trans big">Cancel</a>
+                <button class="button_pink big">Save</button>
+            </div>
+
+
+        </form>
+    </div>
 
 
 </div>
