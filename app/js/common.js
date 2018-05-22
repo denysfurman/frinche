@@ -60,6 +60,11 @@ $(function() {
         $(".hidden_advance").slideToggle();
         $(this).toggleClass("active");
     });
+    //search
+    $('.search').click(function(){
+        $(".serch_block").slideToggle();
+    });
+
 
 
 

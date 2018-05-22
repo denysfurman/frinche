@@ -188,6 +188,9 @@ select:focus {
   }
 }
 
+a:focus, a:hover {
+  color: inherit;
+}
 .button_pink{
   height: 51px;
   background-color: #e20e79;
@@ -200,10 +203,10 @@ select:focus {
   text-align: center;
 
   display: inline-block;
-  &:hover{
+  &:hover,&:visited,&:active,&:focus  {
     text-decoration: none;
     color: #fff;
-    background-color: #ba005d;
+    background-color: #ff1189;
   }
   i{
     font-size: 25px;
@@ -408,6 +411,10 @@ select:focus {
 .footer_subscribe div{
   width: 100%;
   display: flex;
+}
+
+#registration_settings_popup{
+  display: inline-block;
 }
 @import "header";
 @import "mob_menu";

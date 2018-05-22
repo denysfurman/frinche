@@ -278,3 +278,53 @@
 #cd-menu-trigger{
   display: none;
 }
+
+.redact_form{
+  h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  label {
+    color: #8c8a8a;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .29px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .input_wr{
+    margin-bottom: 0;
+  }
+}
+
+.registration_settings_form .delete {
+  margin-right: 10px;
+  display: inline-block;
+  height: 46px;
+  background-color: #f7f7f7;
+  color: #7d7d7d;
+  padding: 0 10px;
+  width: 40px;
+  text-align: center;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 200;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+  i img {
+    width: 19px;
+  }
+}
+.registration_settings_form .edit {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+  width: 40px;
+}

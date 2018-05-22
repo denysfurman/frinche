@@ -80,7 +80,7 @@ header{
     i{
       margin-right: 5px;
       position: relative;
-      top: -2px;
+      top: -3px;
       filter: grayscale(100%);
     }
   }
@@ -118,6 +118,7 @@ header{
   margin-top: 5px;
   position: relative;
   z-index: 10;
+  top:-2px;
   &:before{
     content: "";
     width: 10px;
@@ -224,4 +225,9 @@ header{
     font-weight: 400;
   }
 
+}
+
+
+.serch_block{
+  display: none;
 }
