@@ -238,7 +238,7 @@ a:focus, a:hover {
   box-shadow: 0 5px 36px rgba(4, 26, 55, 0.1);
   background-color: #ffffff;
   border-radius: 5px;
-  padding: 40px;
+  padding: 25px;
   h2{
     font-size: 24px;
     font-weight: 400;
@@ -407,17 +407,89 @@ a:focus, a:hover {
 
 
 }
+.jq-radio.checked .jq-radio__div {
+  width: 8px;
+  height: 8px;
+  margin: 3px 0 0 3px;
+  border-radius: 50%;
+  background: #fff;
+}
 
 .footer_subscribe div{
   width: 100%;
   display: flex;
 }
 
-#registration_settings_popup{
-  display: inline-block;
+
+.tabs{
+  display: flex;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  li{
+
+    a{
+      color: #000;
+      font-size: 16px;
+      padding: 5px 15px;
+      border-bottom: 2px solid transparent;
+      &.active{
+        border-bottom: 2px solid #e20e79;
+      }
+
+
+    }
+  }
+
+}
+.input-group{
+  label{
+    color: #8c8a8a;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .29px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .input-group-label {
+    padding: 10px;
+    border: none;
+    background: #e6e6e6;
+    color: #0a0a0a;
+    text-align: center;
+    white-space: nowrap;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 46px;
+    line-height: 46px;
+  }
+}
+
+.fancybox-close-small {
+  background-image: url(../img/svg/hrest.svg);
+  -webkit-background-size: 20px 20px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none!important;
+  &:hover{
+    background-color: transparent;
+  }
+}
+.fancybox-close-small:hover:after {
+  color: #555;
+  background: transparent;
+  outline: none;
 }
 @import "header";
 @import "mob_menu";
 @import "pages/cart";
+@import "pages/main";
 @import "footer";
 @import "media"; // Always at the end

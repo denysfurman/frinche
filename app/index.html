@@ -12,6 +12,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
 
     <!-- Template Basic Images Start -->
     <meta property="og:image" content="path/to/image.jpg">
@@ -29,23 +30,24 @@
 
 </head>
 <body>
-<header>
+<header class="main_header">
     <div class="grid-container">
         <div class="grid-x grid-padding-x">
             <div class="large-2  cell">
                 <div class="header_logo">
-                    <a href="#"><img src="img/logo.png" alt=""></a>
+                    <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+                    <a href="#" class="logo_w"><img src="img/logo_w.png" alt=""></a>
                 </div>
             </div>
 
             <div class="large-5 show-for-large  cell">
-                <nav>
-                    <ul class="main_nav">
-                        <li><a href="#">Explore</a></li>
-                        <li><a href="#">ABOUT US</a></li>
-                        <li><a href="#">Events</a></li>
-                    </ul>
-                </nav>
+                <!--<nav>-->
+                    <!--<ul class="main_nav">-->
+                        <!--<li><a href="#">Explore</a></li>-->
+                        <!--<li><a href="#">ABOUT US</a></li>-->
+                        <!--<li><a href="#">Events</a></li>-->
+                    <!--</ul>-->
+                <!--</nav>-->
             </div>
 
             <div class="large-5 show-for-large  cell">
@@ -67,11 +69,7 @@
 
                 <div class="header_userblock">
 
-                    <img src="img/user.png" alt="">
-                    <div>
-                        <a href="#" class="user_name">User Name</a>
-                        <a href="#" class="user_mail">user@gmail.com</a>
-                    </div>
+
 
                 </div>
             </div>
@@ -83,151 +81,81 @@
     <a id="cd-menu-trigger" href="#0"><span class="cd-menu-icon"></span></a>
 </header>
 
-<div class="serch_block">
+<section class="main_slider owl-carousel ">
+    <div class="item" style="background: url('img/main_slider.jpg')">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-6  cell">
+                    <span class="title">
+                        Creating great events
+                    </span>
+                    <span class="description">
+                        With fully customized functions
+                    </span>
+                    <a href="#" class="button_pink">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item" style="background: url('img/main_leg.jpg')">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-6  cell">
+                    <span class="title">
+                        Creating great events
+                    </span>
+                    <span class="description">
+                        With fully customized functions
+                    </span>
+                    <a href="#" class="button_pink">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="about_main">
     <div class="grid-container">
-        <input type="text" class="searchTerm" placeholder="What are you looking for?">
-    </div>
-</div>
+        <div class="grid-x grid-padding-x">
+            <div class="large-7 medium-7  cell">
+                <span class="about_title">
+                    A New And Interactive Initiative
+                    To EVENT REGISTRATION And Having THE MOST FUN While Doing It
+                </span>
 
-<nav id="cd-lateral-nav">
-    <div class="header_control_block">
-        <ul class="language-select">
-            <li class="active" data-lang="ua"><i><img src="img/flag.jpg" alt=""></i> English</li>
-
-            <li data-lang="en"><i><img src="img/flag.jpg" alt=""></i> English</li>
-        </ul>
-
-        <ul class="money-select">
-            <li class="active" data-lang="ua">USD</li>
-
-            <li data-lang="en"> EUR</li>
-        </ul>
-    </div>
-    <div class="main_menu_mob_wr">
-        <ul class="cd-navigation">
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">Events</a></li>
-        </ul>
-
-    </div>
-
-
-
-    <div class="header_userblock">
-
-        <img src="img/user.png" alt="">
-        <div>
-            <a href="#" class="user_name">User Name</a>
-            <a href="#" class="user_mail">user@gmail.com</a>
-        </div>
-
-    </div>
-
-
-
-
-</nav>
-
-<div class="grid-container">
-    <div class="grid-x grid-padding-x">
-        <div class="large-12  cell">
-            <h1>Categories and Registration Types</h1>
-            <p>Eu vis veniam posidonium, in postea alterum fabulas vel, mel alia ponderum vituperata eu. Nec admodum copiosae consectetuer in,
-                in quem liber pri, ius ad congue postea.</p>
-            <hr>
-            <h2>Manage your Categories</h2>
-            <form action="#" class="categories_type_form">
-                <div class="categories_item">
-                    <div class="categories_item_top">
-                        <div class="categories_item_title">
-                            <div>
-                                Test category #1
-                            </div>
-                            <span>09/05/2018, 14:10, Run, 1 km</span>
-                        </div>
-                        <div class="categories_item_buttons">
-                            <a href="#"><i><img src="img/svg/copy-files.svg" alt=""></i>Duplicate</a>
-                            <a href="#"><i><img src="img/svg/edit.svg" alt=""></i>Edit</a>
-                            <a href="#"><i><img src="img/svg/rubbish-bin.svg" alt=""></i>Delete</a>
-                        </div>
-                    </div>
-                    <p>Deserunt convenire prodesset ei mei, ne autem iusto fastidii cum. Ad his adhuc invidunt verterem, suas invenire aliquando at pro, eam
-                        dicant persius ex. Ex vis laudem aperiri senserit, essent contentiones te sit, velit essent an pro.</p>
-                    <a data-fancybox data-src="#registration_settings_popup" href="javascript:;" class="button_trans">Add Registration Type</a>
-                </div>
-
-
-                <div class="categories_item">
-                    <div class="categories_item_top">
-                        <div class="categories_item_title">
-                            <div>
-                                Test category #1
-                            </div>
-                            <span>09/05/2018, 14:10, Run, 1 km</span>
-                        </div>
-                        <div class="categories_item_buttons">
-                            <a href="#"><i><img src="img/svg/copy-files.svg" alt=""></i>Duplicate</a>
-                            <a href="#"><i><img src="img/svg/edit.svg" alt=""></i>Edit</a>
-                            <a href="#"><i><img src="img/svg/rubbish-bin.svg" alt=""></i>Delete</a>
-                        </div>
-                    </div>
-                    <p>Deserunt convenire prodesset ei mei, ne autem iusto fastidii cum. Ad his adhuc invidunt verterem, suas invenire aliquando at pro, eam
-                        dicant persius ex. Ex vis laudem aperiri senserit, essent contentiones te sit, velit essent an pro.</p>
-
-
-                    <div class="categories_item registration_type">
-                        <div class="categories_item_top ">
-                            <div class="categories_item_title">
-                                <div>
-                                    Registration type
-                                </div>
-                                <ul>
-                                    <li><span>Type:</span> Individual</li>
-                                    <li><span>Price:</span> 10 USD</li>
-                                    <li><span>Registration Period:</span> 08/05/2018  17:35 — 09/05/2018  17:35</li>
-                                    <li><span>Quota: </span> 11</li>
-                                    <li><span>Availability:</span> Public</li>
-                                </ul>
-                            </div>
-                            <div class="categories_item_buttons">
-                                <a href="#"><i><img src="img/svg/copy-files.svg" alt=""></i>Duplicate</a>
-                                <a href="#"><i><img src="img/svg/edit.svg" alt=""></i>Edit</a>
-                                <a href="#"><i><img src="img/svg/rubbish-bin.svg" alt=""></i>Delete</a>
-                            </div>
-                        </div>
-                        <p>Deserunt convenire prodesset ei mei, ne autem iusto fastidii cum. Ad his adhuc invidunt verterem, suas invenire aliquando at pro, eam
-                            dicant persius ex. Ex vis laudem aperiri senserit, essent contentiones te sit, velit essent an pro.</p>
-
-                    </div>
-
-                    <a data-fancybox data-src="#registration_settings_popup" href="javascript:;" class="button_trans">Add Registration Type</a>
-                </div>
-
-                <div class="add_categories">
-                    <a data-fancybox data-src="#category_settings_popup" href="javascript:;" class="button_pink big"><i class="fas fa-plus-circle"></i> Add a Category</a>
-                    <a href="#" class="button_trans big">Reorder Categories and Registration Types</a>
-                    <div class="tips">
-                        <i>i</i>
-                        <div>
-                            <span>TIPS</span>
-                            <p>You can create multiple Registration Types in a category.</p>
-                        </div>
-                    </div>
-                    <hr>
-                </div>
-
-                <div class="categories_type_form_buttons">
-                    <a href="#" class="button_trans big">Back</a>
-                    <button class="button_pink big continue">Continue <i><img src="img/svg/right-arrow-forward.svg" alt=""></i></button>
-                </div>
-            </form>
+                <a href="#" class="button_pink">More info</a>
+            </div>
+            <div class="large-5 medium-7  cell">
+                <p class="about_description">
+                    FringeBacker Events operates Asia’s only All-in-One solution – Event Registration, Fundraising & Donation for both event organisers and participants. FringeBacker Events’ proprietary solution takes the online event registration process to new levels of efficiency, and has been deployed in some of the most prestigious events in Hong Kong.
+                </p>
+            </div>
         </div>
     </div>
-</div>
+</section>
+<section class="event_management">
 
-<!--<a data-fancybox data-src="#category_settings_popup" href="javascript:;" class="btn btn-primary">Example #2</a>-->
-<!--<a data-fancybox data-src="#registration_settings_popup" href="javascript:;" class="btn btn-primary">Example #2</a>-->
+    <div class="event_management-left"></div>
+    <div class="event_management-right" style="background-image: url('../img/main_leg.jpg')"></div>
+</section>
+
+<section class="logo_slider">
+    <div class="grid-container">
+        <div class="logo_slider_wr owl-carousel owl-theme">
+            <div class="item"><a href="#"><img src="../img/logo_1.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="../img/logo_2.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="../img/logo_3.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="../img/logo_4.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="../img/logo_5.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="../img/logo_1.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="../img/logo_4.png" alt=""></a></div>
+        </div>
+    </div>
+</section>
+
+
+
 
 
 <footer>
@@ -290,12 +218,20 @@
 </footer>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
 <script src="js/scripts.min.js"></script>
-<script src="js/common.js"></script>
+
+<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+
 <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js'></script>
-<script src="../../libs/foundation/js/vendor/foundation.min.js"></script>
+<script src="libs/foundation/js/vendor/foundation.js"></script>
+
+
+
+<script src="js/common.js"></script>
 </body>
 </html>
 <div id="category_settings_popup" class="fsb_popup">
@@ -388,12 +324,12 @@
             <div class="input_wr">
                 <label>Registration Type Name</label>
                 <input type="text">
-                <label for="chek_1"><input type="checkbox" id="chek_1" class="form_style">Omit Registration Type Name (Not
+                <label for="chek2_1"><input type="checkbox" id="chek2_1" class="form_style">Omit Registration Type Name (Not
                     available if more than one category)</label>
             </div>
             <div class="input_wr">
                 <label>Type</label>
-                <select name="#" id="">
+                <select name="#">
                     <option value="Please select">Please select</option>
                     <option value="select 1">Select 1</option>
                     <option value="select 2">Select 2</option>
@@ -408,7 +344,7 @@
                         <input type="text" pattern="\d*" required>
                     </div>
                     <div class="medium-2 cell">
-                        <select name="#" id="">
+                        <select name="#" >
                             <option value="Please select">USD</option>
                             <option value="select 1">EUR</option>
 
@@ -591,7 +527,7 @@
                         </div>
 
                         <div class="input_wr">
-                            <label>Age</label>
+                            <label>Check</label>
                             <div class="grid-x grid-padding-x">
                                 <div class="large-12 medium-12 cell">
                                     <a href="#" class="delete"><i><img src="img/svg/rubbish-bin.svg" alt=""></i></a>
@@ -606,6 +542,143 @@
 
                             </div>
                         </div>
+                        <div class="input_wr">
+                            <label>Radio</label>
+                            <div class="grid-x grid-padding-x">
+                                <div class="large-12 medium-12 cell">
+                                    <a href="#" class="delete"><i><img src="img/svg/rubbish-bin.svg" alt=""></i></a>
+                                    <a href="#" class="edit"><i><img src="img/svg/edit.svg" alt=""></i></a>
+
+                                </div>
+
+                                <div class="large-12 medium-12 cell">
+                                    <label for="redio_2"><input type="radio" name="r_1" id="redio_2" class="form_style"> Omit Category 1</label>
+                                    <label for="radio_1"><input type="radio" name="r_1" id="radio_1" class="form_style"> Omit Category 2</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-6  medium-6 cell">
+                        <h3> Add Question </h3>
+                        <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                            <li><a href="#tab1" class="active">Common</a></li>
+                            <li><a href="#tab2">Custom</a></li>
+
+                        </ul>
+                        <section id="first-tab-group" class="tabgroup">
+                            <div id="tab1">
+                                <div class="grid-x grid-padding-x">
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>ID / Password No</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Marriage</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Mobile</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Name on receipt</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Occupation</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Birthday</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Address</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>T-Shirt size</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Emergency Contact Person</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Emergency Contact Number</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Emergency Contact Number</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Blood Type</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab2">
+                                <div class="grid-x grid-padding-x">
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>ID / Password No</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Marriage</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Mobile</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Name on receipt</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="large-6 medium-6 cell">
+                                        <div class="drug_form">
+                                            <span>Occupation</span>
+                                            <img src="img/drug_arr.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
                     </div>
                 </div>
 
@@ -625,8 +698,109 @@
             </div>
 
             <div class="advance_setting">
-                <span>Advanced Settings <i><img src="img/svg/caret-down.svg" alt=""></i></span>
+                <span class="title">Advanced Settings <i><img src="img/svg/caret-down.svg" alt=""></i></span>
                 <div class="hidden_advance">
+                    <span class="title">Admin</span>
+                    <div class="input_wr">
+
+                        <label for="chek1_1"><input type="checkbox" checked id="chek1_1" class="form_style"> Allow
+                            Allow Edit Team Member Information</label>
+                        <div class="pl_30">
+                            <div class="input_wr">
+                                <div class="grid-x grid-padding-x">
+
+                                    <div class="large-5 cell">
+                                        <label for="">Edit Team Member Deadline</label>
+                                        <div class="input-group date">
+                                            <input type="text" class="form-control" id="datepicker5" class="datapicker"
+                                                   placeholder="MM/DD/YYYY">
+
+                                        </div>
+
+                                        <label>Edit Team Member Fee</label>
+                                        <div class="input-group ">
+
+                                            <input type="text" placeholder="" class="input-group-field">
+                                            <span class="input-group-label">HK$</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="title">Participants</span>
+
+
+                    <div class="grid-x grid-padding-x">
+                        <div class="large-4 medium-12 cell">
+                            <div class="input_wr">
+                                <label>Custom Title</label>
+                                <input type="text">
+                                <input type="text">
+
+                            </div>
+                        </div>
+
+                        <div class="large-4 medium-12 cell">
+                            <div class="input_wr">
+                                <label>Age Setting</label>
+                                <select name="#" >
+                                    <option value="Please select">All genders</option>
+                                    <option value="select 1">Select 1</option>
+                                    <option value="select 2">Select 2</option>
+                                    <option value="select 3">Select 2</option>
+                                </select>
+
+
+                                <div class="grid-x grid-padding-x">
+                                    <div class="large-5 medium-5 small-5 cell">
+                                        <input type="text">
+                                    </div>
+                                    <div class="large-2 medium-2 small-2 cell">
+                                        <span class="to">to</span>
+                                    </div>
+                                    <div class="large-5 medium-5 small-5 cell">
+                                        <input type="text">
+                                    </div>
+
+                                </div>
+                                <div class="grid-x grid-padding-x">
+                                    <div class="large-5 medium-5 small-5 cell">
+                                        <input type="text">
+                                    </div>
+                                    <div class="large-2 medium-2 small-2 cell">
+                                        <span class="to">to</span>
+                                    </div>
+                                    <div class="large-5 medium-5 small-5 cell">
+                                        <input type="text">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="large-4 medium-12 cell">
+
+                            <div class="input_wr">
+                                <label>Gender Setting</label>
+                                <select name="#" >
+                                    <option value="Please select">All genders</option>
+                                    <option value="select 1">Select 1</option>
+                                    <option value="select 2">Select 2</option>
+                                    <option value="select 3">Select 2</option>
+                                </select>
+
+                                <select name="#" >
+                                    <option value="Please select">All genders</option>
+                                    <option value="select 1">Select 1</option>
+                                    <option value="select 2">Select 2</option>
+                                    <option value="select 3">Select 2</option>
+                                </select>
+
+                            </div>
+                        </div>
+
+                    </div>
                     <div class="input_wr">
                         <label>Custom Title for the Participants</label>
                         <input type="text">
@@ -634,7 +808,7 @@
                     </div>
                     <div class="input_wr">
                         <label>Gender Setting</label>
-                        <select name="#" id="">
+                        <select name="#">
                             <option value="Please select">All genders</option>
                             <option value="select 1">Select 1</option>
                             <option value="select 2">Select 2</option>

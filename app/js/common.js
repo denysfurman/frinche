@@ -1,14 +1,36 @@
-$(function() {
+
+$(document).ready(function() {
+   $('.main_slider').owlCarousel({
+       nav:false,
+       items:1
+
+   });
+    $('.logo_slider_wr').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    });
 
 	// language header
     $('.language-select,.money-select').click(function(){
         $(this).toggleClass('open');
-    })
+    });
 
     $('.language-select li ,.money-select li').click(function(){
         $(this).siblings('li').removeClass('active');
         $(this).toggleClass('active');
-    })
+    });
 
     //popup
     $(".popup").fancybox({
@@ -17,7 +39,7 @@ $(function() {
         touch: false,
         smallBtn: true
 
-    })
+    });
     //formStyle
     //select
     $('.form_style').styler({
@@ -45,6 +67,11 @@ $(function() {
         format: 'mm/dd/yyyy'
 
     });
+    $('#datepicker5').datepicker({
+        autoclose: true,
+        format: 'mm/dd/yyyy'
+
+    });
     $(document).mouseup(function (e) {
         var container = $(".input-group.date ");
         if (container.has(e.target).length === 0){
@@ -65,10 +92,38 @@ $(function() {
         $(".serch_block").slideToggle();
     });
 
+    //tabs
+    $('.tabgroup > div').hide();
+    $('.tabgroup > div:first-of-type').show();
+    $('.tabs a').click(function(e){
+        e.preventDefault();
+        var $this = $(this),
+            tabgroup = '#'+$this.parents('.tabs').data('tabgroup'),
+            others = $this.closest('li').siblings().children('a'),
+            target = $this.attr('href');
+        others.removeClass('active');
+        $this.addClass('active');
+        $(tabgroup).children('div').hide();
+        $(target).show();
 
+    });
 
+    /* Fixed Navigation */
+    if ($('header').offset().top > 50) {
+        $('body').addClass('fixed-header');
+    } else {
+        $('body').removeClass('fixed-header');
+    }
 
-
+    /* Scroll Function */
+    $(window).scroll(function() {
+        /* Fixed Navigation */
+        if ($('header').offset().top > 50) {
+            $('body').addClass('fixed-header');
+        } else {
+            $('body').removeClass('fixed-header');
+        }
+    });
 
 });
 
@@ -99,3 +154,5 @@ jQuery(document).ready(function($){
         }
     });
 });
+
+// $(document).foundation();
