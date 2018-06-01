@@ -6,12 +6,19 @@ header.main_header {
   left: 0;
   width: 100%;
   padding: 20px 0 0;
-  height: 90px;
+  height: 88px;
   line-height: 90px;
+  box-shadow: none;
 
   background-color: transparent;
   transition: background-color, padding  0.2s ease;
+  .wrapper-menu {
 
+    margin-top: 26px;
+  }
+  .line-menu {
+    background-color: #fff;
+  }
   .header_start{
     color: #f0f0f0;
     width: 126px;
@@ -45,6 +52,10 @@ header.main_header {
   .money-select li{
     color: #fff;
   }
+  .header_logo{
+    position: relative;
+    top: -3px;
+  }
   .logo{
     display: none;
   }
@@ -59,15 +70,14 @@ header.main_header {
   
 }
 
+
 .fixed-header header.main_header {
   background: #FFF;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   top: 0;
   margin-top: 0;
   padding-top: 1px;
-  .line-menu {
-    background-color: #000;
-  }
+
   .logo{
     display: block;
 
@@ -85,6 +95,12 @@ header.main_header {
       background-color: #fff;
     }
 
+  }
+  .wrapper-menu-wrap nav {
+
+    margin-top: 29px;
+
+    box-shadow: 0px 2px 3px rgba(0,0,0,.3);
   }
   .logo_w{
     display: none;
@@ -213,17 +229,31 @@ header.main_header {
 
 }
 
-.about_main{
-  min-height: 630px;
+.about_main {
+  min-height: initial;
   width: 100%;
   background-color: #f7f7f7;
   padding-top: 130px;
+  padding-bottom: 270px;
+
   .about_title{
     color: #282828;
     display: block;
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
+  }
+  .logo_name{
+
+
+      font-size: 170px;
+      font-weight: 900;
+
+      position: absolute;
+      letter-spacing: -10.8px;
+      transform: rotateZ(-3.5deg);
+      margin-top: 15px;
+      color: #eeeeee;
   }
 
   .button_pink{
@@ -286,6 +316,11 @@ header.main_header {
     margin: 0 auto;
     object-fit: contain;
     max-height: 100px;
+    filter: grayscale(100%);
+    transition: all 0.2s ease;
+    &:hover{
+      filter: grayscale(0%);
+    }
 
 
   }
@@ -478,6 +513,82 @@ header.main_header {
   float: right;
 }
 
+.wrapper-menu-wrap{
+  position: relative;
+  nav{
+    position: absolute;
+    width: 200px;
+    background-color: #fff;
+    padding: 15px 30px;
+    margin-top: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+    display: none;
+    ul{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      a{
+        color: #000;
+        margin-right: 0;
+        letter-spacing: 0;
+      }
+    }
+
+  }
+}
+.header.main_header {
+  .search {
+    right: 62px;
+    top: 11px;
+    position: absolute;
+    margin: 0;
+  }
+}
+.header.main_header{
+  .header_optinal{
 
 
+    .language-select{
 
+      top: 4px;
+
+    }
+    .money-select{
+
+      top: 4px;
+    }
+  }
+  .search {
+
+    top: 0;
+  }
+}
+
+header .search {
+
+  position: relative;
+  top: 0px;
+}
+.header_optinal{
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  top: 3px;
+
+  .language-select{
+    position: absolute;
+    left: 0;
+
+
+  }
+  .money-select{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+.fixed-header header.main_header .line-menu {
+  background-color: #dc0271;
+}
