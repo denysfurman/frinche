@@ -592,3 +592,32 @@ header .search {
 .fixed-header header.main_header .line-menu {
   background-color: #dc0271;
 }
+
+[type=checkbox]{
+  height: 20px;
+}
+.jq-checkbox{
+  overflow: visible!important;
+}
+.jq-checkbox.checked .jq-checkbox__div {
+  width: 17px;
+  height: 17px;
+}
+.item-group.level-1{
+  tr{
+    .item-desc{
+      padding-left: 40px;
+    }
+
+
+  }
+}
+.item-group.level-2{
+
+  .item-desc{
+    padding-left: 70px;
+  }
+
+
+
+}
