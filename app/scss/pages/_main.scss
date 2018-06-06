@@ -602,6 +602,7 @@ header .search {
 .jq-checkbox.checked .jq-checkbox__div {
   width: 17px;
   height: 17px;
+  border-radius: 5px;
 }
 .item-group.level-1{
   tr{
@@ -617,7 +618,7 @@ header .search {
   .item-desc{
     padding-left: 70px;
   }
-
-
-
+}
+.mb200{
+  margin-bottom: 200px;
 }

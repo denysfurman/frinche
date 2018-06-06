@@ -141,272 +141,333 @@
 <div class="grid-container">
     <div class="grid-x grid-padding-x">
         <div class="large-12  cell">
-            <h1>Cart</h1>
-            <p class="page_descr">Eu vis veniam posidonium, in postea alterum fabulas vel, mel alia ponderum vituperata eu. Nec admodum
-                copiosae consectetuer in,
+            <h1>Registration Form</h1>
+            <p class="page_descr">Eu vis veniam posidonium, in postea alterum fabulas vel, mel alia ponderum vituperata
+                eu. Nec admodum copiosae consectetuer in,
                 in quem liber pri, ius ad congue postea.</p>
             <hr>
-            <form class="checkout-form cart_page_form mb200 " action="./" method="POST" enctype="multipart/form-data">
-
-                <div class="app-group table_wrap">
-                    <table class="checkout white_table" cellspacing="0" cellpadding="0">
-                        <tbody>
-                        <tr class="item">
-                            <td width="30" class="text-center">
-                                <input class="form_style" type="checkbox" data-name="all-checkbox">
-                            </td>
-                            <td>
-                                Select All
-                            </td>
-                            <td data-name="sel-count" data-text="Selected: _M_ of _N_ items"> Selected: <b> 5 of 11
-                                items</b></td>
-                            <td class="text-center">
-                                Total:
-                            </td>
-                            <td class="text-center" data-name="sel-ccy">EUR</td>
-                            <td class="text-center" data-name="sel-total">0.00</td>
-
-                        </tr>
-                        </tbody>
-                    </table>
+            <h2>Manage your Registration Forms</h2>
+            <nav class="registration_nav">
+                <div class="previous">
+                    <i class="fas fa-caret-left"></i>
                 </div>
-
-                <div class="store_wrap">
-                    <div class="app-group table_wrap">
-                        <table class="checkout white_table" cellspacing="0" cellpadding="0">
-                            <thead class="bottom-border">
-                            <tr>
-                                <th width="30" class="text-center">
-                                    <input id="gh-App.1" class="form_style" type="checkbox" data-name="group-checkbox">
-                                </th>
-                                <th>
-                                    <label for="gh-App.1">
-                                        <strong> My Store </strong>
-                                    </label>
-                                </th>
-                                <th width="200" class="text-center"> <!-- Quantity --> </th>
-                                <th width="100" class="text-center"> Currency</th>
-                                <th width="100" class="text-center"> Sub Total</th>
-                                <th width="80"> <!-- Action Cell --> </th>
-                            </tr>
-                            </thead>
-                            <tbody class="item-group level-0">
-                            <tr class="item" data-unit-price="0.0000000000000000" data-ccy="EUR">
-                                <td>
-                                    <input type="checkbox" class="form_style" data-bind="" data-parent=""
-                                           name="settle-item" value="48">
-                                </td>
-                                <td class="item-desc"> C2 - R1</td>
-                                <td class="text-center">
-                                    <input class="quantity-input" type="hidden" value="1" autocomplete="off">
-                                </td>
-                                <td class="text-center disp-ccy"> EUR</td>
-                                <td class="text-center disp-subtotal"> 0.00</td>
-                                <td class="action-cell">
-                                    <div class="categories_item_buttons">
-
-                                        <a href="#"><i class="icon-edit"></i></a>
-                                        <a href="#"><i class="icon-rubbish-bin"></i></a>
-                                    </div>
-
-                                </td>
-                            </tr>
-                            </tbody>
-                            <tbody class="item-group level-1">
-                            <tr class="item" data-unit-price="0.0000000000000000" data-ccy="EUR">
-                                <td>
-                                    <input type="checkbox" class="form_style" data-bind="1" data-parent="48"
-                                           name="settle-item" value="49">
-                                </td>
-                                <td class="item-desc"> My First Name Ok</td>
-                                <td class="text-center">
-                                    <input class="quantity-input" type="hidden" value="1" autocomplete="off">
-                                </td>
-                                <td class="text-center disp-ccy"> EUR</td>
-                                <td class="text-center disp-subtotal"> 0.00</td>
-                                <td class="action-cell">
-                                    <div class="categories_item_buttons">
-
-                                        <a href="#"><i class="icon-rubbish-bin"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                            <tbody class="item-group level-1">
-                            <tr class="item" data-unit-price="0.0000000000000000" data-ccy="EUR">
-                                <td>
-                                    <input type="checkbox" class="form_style" data-bind="1" data-parent="48"
-                                           name="settle-item" value="50">
-                                </td>
-                                <td class="item-desc"> Hmk Second</td>
-                                <td class="text-center">
-                                    <input class="quantity-input" type="hidden" value="1" autocomplete="off">
-                                </td>
-                                <td class="text-center disp-ccy"> EUR</td>
-                                <td class="text-center disp-subtotal"> 0.00</td>
-                                <td class="action-cell">
-                                    <div class="categories_item_buttons">
-                                        <a href="#"><i class="icon-edit"></i></a>
-                                        <a href="#"><i class="icon-rubbish-bin"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-
-                            <tbody class="item-group level-0">
-                            <tr class="item" data-unit-price="0.0000000000000000" data-ccy="EUR">
-                                <td>
-                                    <input type="checkbox" class="form_style" data-bind="" data-parent="" name="settle-item" value="45">
-                                </td>
-                                <td class="item-desc"> C2 - R1</td>
-                                <td class="text-center">
-
-                                    <input class="quantity-input" type="hidden" value="1" autocomplete="off">
-
-                                </td>
-                                <td class="text-center disp-ccy"> EUR</td>
-                                <td class="text-center disp-subtotal"> 0.00</td>
-                                <td class="action-cell">
-                                    <div class="categories_item_buttons">
-                                        <a href="#"><i class="icon-edit"></i></a>
-                                        <a href="#"><i class="icon-rubbish-bin"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                            <tbody class="item-group level-1">
-                            <tr class="item" data-unit-price="0.0000000000000000" data-ccy="EUR">
-                                <td>
-                                    <input type="checkbox" class="form_style" data-bind="1" data-parent="45" name="settle-item" value="46">
-                                </td>
-                                <td class="item-desc"> My First Name My Last Name</td>
-                                <td class="text-center">
-                                    <input class="quantity-input" type="hidden" value="1" autocomplete="off">
-                                </td>
-                                <td class="text-center disp-ccy"> EUR</td>
-                                <td class="text-center disp-subtotal"> 0.00</td>
-                                <td class="action-cell">
-                                    <div class="categories_item_buttons">
-                                        <a href="#"><i class="icon-edit"></i></a>
-                                        <a href="#"><i class="icon-rubbish-bin"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                            <tbody class="item-group level-2" disabled="disabled">
-                            <tr class="item" data-unit-price="123.0000000000000000" data-ccy="HKD">
-                                <td>
-                                    <input type="checkbox" class="form_style" data-bind="1" data-parent="46" name="settle-item" value="47"
-                                           disabled="disabled">
-                                </td>
-                                <td class="item-desc"> Public item</td>
-                                <td class="text-center">
-
-                                    <span class="quantity_title">Qnt: </span>
-                                    <div class="quantity_wr">
-                                        <a class="qty-minus" href="#!"> - </a>
-                                        <input class="text-center quantity-input" type="text"
-                                               value="3" autocomplete="off">
-                                        <a class="qty-plus" href="#!"> + </a>
-                                    </div>
-
-                                </td>
-                                <td class="text-center disp-ccy"> HKD</td>
-                                <td class="text-center disp-subtotal"> 369.00</td>
-                                <td class="action-cell">
-                                    <div class="categories_item_buttons">
-                                        <a href="#"><i class="icon-edit"></i></a>
-                                        <a href="#"><i class="icon-rubbish-bin"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-
-                            <tbody class="item-group level-1">
-                            <tr class="item" data-unit-price="3123" data-ccy="EUR">
-                                <td>
-                                    <input type="checkbox" class="form_style"  data-bind="1" data-parent="52" name="settle-item" value="53">
-                                </td>
-                                <td class="item-desc"> Donation</td>
-                                <td class="text-center">
-
-                                    <input class="quantity-input" type="hidden" value="1" autocomplete="off">
-
-                                </td>
-                                <td class="text-center disp-ccy"> EUR</td>
-                                <td class="text-center disp-subtotal"> 3123.00</td>
-                                <td class="action-cell">
-
-                                    <div class="categories_item_buttons">
-                                        <a href="#"><i class="icon-edit"></i></a>
-
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="next">
+                   <i class="fas fa-caret-right"></i>
                 </div>
-                <div class="store_wrap">
-                    <div class=" app-group">
-                        <table class="checkout white_table" cellspacing="0" cellpadding="0">
-                            <thead class="bottom-border">
-                            <tr>
-                                <th width="30" class="text-center">
-                                    <input id="gh-App.2" class="form_style" type="checkbox" data-name="group-checkbox">
-                                </th>
-                                <th>
-                                    <label for="gh-App.2">
-                                       <strong> My Event </strong>
-                                    </label>
-                                </th>
-                                <th width="200" class="text-center"> <!-- Quantity --> </th>
-                                <th width="100" class="text-center"> Currency</th>
-                                <th width="100" class="text-center"> Sub Total</th>
-                                <th width="80"> <!-- Action Cell --> </th>
-                            </tr>
-                            </thead>
-                            <tbody class="item-group level-0" disabled="disabled">
-                            <tr class="item" data-unit-price="123" data-ccy="CNY">
-                                <td>
-                                    <input type="checkbox" class="form_style" data-bind="" data-parent="" name="settle-item" value="62"
-                                           disabled="disabled">
-                                </td>
-                                <td class="item-desc"> Store Item 1</td>
-                                <td class="text-center">
-                                    <span class="quantity_title">Qnt: </span>
-                                    <div class="quantity_wr">
-                                        <a class="qty-minus" href="#!"> - </a>
-                                        <input class="text-center quantity-input" type="text"
-                                        value="3" autocomplete="off">
-                                        <a class="qty-plus" href="#!"> + </a>
-                                    </div>
-                                </td>
-                                <td class="text-center disp-ccy"> CNY</td>
-                                <td class="text-center disp-subtotal"> 492.00</td>
-                                <td class="action-cell">
+                <div class="wrapper">
+                    <ul>
+                        <li>
+                            <a href="">Registration Form 1</a>
+                        </li>
+                        <li>
+                            <a href="">Registration Form 2</a>
+                        </li>
+                        <li>
+                            <a href="">Registration Form 3</a>
+                        </li>
+                        <li>
+                            <a href="">Registration Form 4</a>
+                        </li>
+                        <li>
+                            <a href="">Registration Form 5</a>
+                        </li>
+                        <li>
+                            <a href="">Registration Form 6</a>
+                        </li>
+                        <li>
+                            <a href="">Registration Form 7</a>
+                        </li>
+                        <li>
+                            <a href="">Registration Form 8</a>
+                        </li>
 
-                                    <a href="/checkout/cart/remove-item/62/">
-                                        <i class="fi fi-trash"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
+
+                    </ul>
                 </div>
-                <div class=" text-right">
-                    <input type="hidden" name="action">
+            </nav>
+            <form action="#" ID="redact_form" class="categories_type_form">
+                <div class="redact_form registration_settings_form ">
 
-                    <div class="categories_type_form_buttons">
-                        <a href="#" class="button_trans big">Remove</a>
-                        <button class="button_pink big continue"  value="checkout">Checkout selected items <i class="icon-right-arrow-forward"></i></button>
+                    <div class="grid-x grid-padding-x">
+                        <div class="large-6 medium-6 cell">
+                           <div class="reg_form_wr">
+                               <div class="input_wr">
+                                   <label>Form Name</label>
+                                   <div class="grid-x grid-padding-x">
+
+                                       <div class="large-10 medium-9 cell">
+                                           <input type="text">
+                                       </div>
+                                       <div class="large-2 medium-3 cell">
+                                           <a href="#" class="edit"><i class="icon-edit"></i></a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+
+                            <div class="reg_form_wr">
+
+
+                                <div class="input_wr">
+                                    <label>Age</label>
+                                    <div class="grid-x grid-padding-x">
+
+                                        <div class="large-10 medium-9 cell">
+                                            <input type="text">
+                                        </div>
+                                        <div class="large-2 medium-3 cell">
+                                            <a href="#" class="edit"><i class="icon-edit"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="input_wr">
+                                    <label>Nationality</label>
+                                    <div class="grid-x grid-padding-x">
+
+                                        <div class="large-10 medium-9 cell">
+                                            <input type="text">
+                                        </div>
+                                        <div class="large-2 medium-3 cell">
+                                            <a href="#" class="edit"><i class="icon-edit"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="input_wr">
+                                    <label>Relationship with Emergency Contact Person</label>
+                                    <div class="grid-x grid-padding-x">
+
+                                        <div class="large-10 medium-9 cell">
+                                            <input type="text">
+                                        </div>
+                                        <div class="large-2 medium-3 cell">
+                                            <a href="#" class="edit"><i class="icon-edit"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="input_wr">
+                                    <label>Medical Conditions </label>
+                                    <div class="grid-x grid-padding-x">
+
+                                        <div class="large-10 medium-9 cell">
+                                            <input type="text">
+                                        </div>
+                                        <div class="large-2 medium-3 cell">
+                                            <a href="#" class="edit"><i class="icon-edit"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="input_wr">
+                                    <label>Text</label>
+                                    <div class="grid-x grid-padding-x">
+
+                                        <div class="large-10 medium-9 cell">
+                                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                                        </div>
+                                        <div class="large-2 medium-3 cell">
+                                            <a href="#" class="edit"><i class="icon-edit"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="input_wr">
+                                    <label>Age</label>
+                                    <div class="grid-x grid-padding-x">
+
+                                        <div class="large-10 medium-9 cell">
+                                            <select>
+                                                <option value="Please select">Please select</option>
+                                                <option value="select 1">Select 1</option>
+                                                <option value="select 2">Select 2</option>
+                                                <option value="select 3">Select 2</option>
+                                            </select>
+                                        </div>
+                                        <div class="large-2 medium-3 cell">
+                                            <a href="#" class="edit"><i class="icon-edit"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="input_wr">
+                                    <label>Check</label>
+                                    <div class="grid-x grid-padding-x">
+                                        <div class="large-12 medium-12 cell">
+                                            <a href="#" class="delete"><i class="icon-rubbish-bin"></i></a>
+                                            <a href="#" class="edit"><i class="icon-edit"></i></a>
+
+                                        </div>
+
+                                        <div class="large-12 medium-12 cell">
+                                            <label for="chek_10"><input type="checkbox" id="chek_10" class="form_style">
+                                                Omit Category 1</label>
+                                            <label for="chek_12"><input type="checkbox" id="chek_12" class="form_style">
+                                                Omit Category 2</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="input_wr">
+                                    <label>Radio</label>
+                                    <div class="grid-x grid-padding-x">
+                                        <div class="large-12 medium-12 cell">
+                                            <a href="#" class="delete"><i class="icon-rubbish-bin"></i></a>
+                                            <a href="#" class="edit"><i class="icon-edit"></i></a>
+                                            <a href="#" class="prog"><i class="icon-programming"></i></a>
+
+                                        </div>
+
+                                        <div class="large-12 medium-12 cell">
+                                            <label for="redio_2"><input type="radio" name="r_1" id="redio_2"
+                                                                        class="form_style"> Omit Category 1</label>
+                                            <label for="radio_1"><input type="radio" name="r_1" id="radio_1"
+                                                                        class="form_style"> Omit Category 2</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="large-6  medium-6 cell">
+                            <div class="reg_form_wr">
+                                <h3> Add Question </h3>
+                                <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                                    <li><a href="#tab1" class="active">Common</a></li>
+                                    <li><a href="#tab2">Custom</a></li>
+
+                                </ul>
+                                <section id="first-tab-group" class="tabgroup">
+                                    <div id="tab1">
+                                        <div class="grid-x grid-padding-x">
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>ID / Password No</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Marriage</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Mobile</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Name on receipt</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Occupation</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Birthday</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Address</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>T-Shirt size</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Relationship with Emergency Contact Person</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Emergency Contact Number</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Emergency Contact Number</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Blood Type</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="tab2">
+                                        <div class="grid-x grid-padding-x">
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>ID / Password No</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Marriage</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Mobile</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Name on receipt</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="large-6 medium-6 cell">
+                                                <div class="drug_form">
+                                                    <span>Occupation</span>
+                                                    <img src="img/drug_arr.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </section>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </form>
         </div>
     </div>
 </div>
+
+
 
 <footer>
     <div class="grid-container">

@@ -5,11 +5,11 @@
     <div class="grid-x grid-padding-x">
         <div class="large-12  cell">
             <h1>Cart</h1>
-            <p>Eu vis veniam posidonium, in postea alterum fabulas vel, mel alia ponderum vituperata eu. Nec admodum
+            <p class="page_descr">Eu vis veniam posidonium, in postea alterum fabulas vel, mel alia ponderum vituperata eu. Nec admodum
                 copiosae consectetuer in,
                 in quem liber pri, ius ad congue postea.</p>
             <hr>
-            <form class="checkout-form" action="./" method="POST" enctype="multipart/form-data">
+            <form class="checkout-form cart_page_form mb200 " action="./" method="POST" enctype="multipart/form-data">
 
                 <div class="app-group table_wrap">
                     <table class="checkout white_table" cellspacing="0" cellpadding="0">
@@ -36,7 +36,7 @@
 
                 <div class="store_wrap">
                     <div class="app-group table_wrap">
-                        <table class="checkout" cellspacing="0" cellpadding="0">
+                        <table class="checkout white_table" cellspacing="0" cellpadding="0">
                             <thead class="bottom-border">
                             <tr>
                                 <th width="30" class="text-center">
@@ -44,9 +44,7 @@
                                 </th>
                                 <th>
                                     <label for="gh-App.1">
-                                        <h6 class="bottomless">
-                                            <strong> My Store </strong>
-                                        </h6>
+                                        <strong> My Store </strong>
                                     </label>
                                 </th>
                                 <th width="200" class="text-center"> <!-- Quantity --> </th>
@@ -91,7 +89,7 @@
                                 <td class="text-center disp-subtotal"> 0.00</td>
                                 <td class="action-cell">
                                     <div class="categories_item_buttons">
-                                        <a href="#"><i class="icon-edit"></i></a>
+
                                         <a href="#"><i class="icon-rubbish-bin"></i></a>
                                     </div>
                                 </td>
@@ -167,11 +165,13 @@
                                 <td class="item-desc"> Public item</td>
                                 <td class="text-center">
 
-                                    Quantity:
-                                    <a class="qty-minus" href="#!"> - </a>
-                                    [<input class="text-center bottomless quantity-input" type="text"
-                                            data-uri="/checkout/json/cart/item-qty/47/" value="3" autocomplete="off">]
-                                    <a class="qty-plus" href="#!"> + </a>
+                                    <span class="quantity_title">Qnt: </span>
+                                    <div class="quantity_wr">
+                                        <a class="qty-minus" href="#!"> - </a>
+                                        <input class="text-center quantity-input" type="text"
+                                               value="3" autocomplete="off">
+                                        <a class="qty-plus" href="#!"> + </a>
+                                    </div>
 
                                 </td>
                                 <td class="text-center disp-ccy"> HKD</td>
@@ -186,7 +186,7 @@
                             </tbody>
 
                             <tbody class="item-group level-1">
-                            <tr class="item" data-unit-price="3123.0000000000000000" data-ccy="EUR">
+                            <tr class="item" data-unit-price="3123" data-ccy="EUR">
                                 <td>
                                     <input type="checkbox" class="form_style"  data-bind="1" data-parent="52" name="settle-item" value="53">
                                 </td>
@@ -212,7 +212,7 @@
                 </div>
                 <div class="store_wrap">
                     <div class=" app-group">
-                        <table class="checkout" cellspacing="0" cellpadding="0">
+                        <table class="checkout white_table" cellspacing="0" cellpadding="0">
                             <thead class="bottom-border">
                             <tr>
                                 <th width="30" class="text-center">
@@ -220,9 +220,7 @@
                                 </th>
                                 <th>
                                     <label for="gh-App.2">
-                                        <h6 class="bottomless">
-                                            <strong> My Event </strong>
-                                        </h6>
+                                       <strong> My Event </strong>
                                     </label>
                                 </th>
                                 <th width="200" class="text-center"> <!-- Quantity --> </th>
@@ -232,18 +230,20 @@
                             </tr>
                             </thead>
                             <tbody class="item-group level-0" disabled="disabled">
-                            <tr class="item" data-unit-price="123.0000000000000000" data-ccy="CNY">
+                            <tr class="item" data-unit-price="123" data-ccy="CNY">
                                 <td>
                                     <input type="checkbox" class="form_style" data-bind="" data-parent="" name="settle-item" value="62"
                                            disabled="disabled">
                                 </td>
                                 <td class="item-desc"> Store Item 1</td>
                                 <td class="text-center">
-                                    Quantity:
-                                    <a class="qty-minus" href="#!"> - </a>
-                                    [<input class="text-center bottomless quantity-input" type="text"
-                                            data-uri="/checkout/json/cart/item-qty/62/" value="4" autocomplete="off">]
-                                    <a class="qty-plus" href="#!"> + </a>
+                                    <span class="quantity_title">Qnt: </span>
+                                    <div class="quantity_wr">
+                                        <a class="qty-minus" href="#!"> - </a>
+                                        <input class="text-center quantity-input" type="text"
+                                        value="3" autocomplete="off">
+                                        <a class="qty-plus" href="#!"> + </a>
+                                    </div>
                                 </td>
                                 <td class="text-center disp-ccy"> CNY</td>
                                 <td class="text-center disp-subtotal"> 492.00</td>
@@ -260,12 +260,11 @@
                 </div>
                 <div class=" text-right">
                     <input type="hidden" name="action">
-                    <button class="button alert proceed-checkout" type="submit" value="remove">
-                        Remove
-                    </button>
-                    <button class="button proceed-checkout" type="submit" value="checkout">
-                        Checkout selected items
-                    </button>
+
+                    <div class="categories_type_form_buttons">
+                        <a href="#" class="button_trans big">Remove</a>
+                        <button class="button_pink big continue"  value="checkout">Checkout selected items <i class="icon-right-arrow-forward"></i></button>
+                    </div>
                 </div>
             </form>
         </div>

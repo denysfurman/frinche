@@ -1,0 +1,114 @@
+.registration_nav {
+  position: relative;
+  max-width: 100%;
+  background: white;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 70px;
+  .wrapper {
+    overflow-X: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .previous, .next {
+    position: absolute;
+    top: 0;
+    display: block;
+    background: white;
+    height: 100%;
+    right: 40px;
+    width: 70px;
+    cursor: pointer;
+    i {
+      position: absolute;
+      top: 17px;
+      left: 50%;
+      width: 25px;
+      height: 25px;
+      border: 1px solid #a9a7a7;
+      border-radius: 2px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      color: #918f8f;
+
+    }
+  }
+  .previous {
+    background: linear-gradient(to left, white, white 80%, rgba(white, 0.52));
+
+
+  }
+  .next {
+    right: 10px;
+    width: 30px;
+    background: linear-gradient(to right, white, white 80%, rgba(white, 0));
+    i{
+      left: 0;
+    }
+
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    padding-right: 30px;
+
+    width: max-content;
+    li {
+      a {
+        font-size: 14px;
+        display: block;
+        padding: 20px 20px;
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+.reg_form_wr{
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  .input_wr{
+    label{
+      color: #a63f7f;
+    }
+  }
+}
+
+
+.registration_settings_form .prog {
+  margin-right: 10px;
+  display: inline-block;
+  background-color: #f7f7f7;
+  color: #7d7d7d;
+  padding: 0 10px;
+  width: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+  height: 34px;
+  line-height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  i {
+    font-size: 20px;
+  }
+  &:hover {
+    text-decoration: none;
+    background-color: #d6d6d6;
+  }
+}

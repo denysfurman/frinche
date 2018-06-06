@@ -82,6 +82,18 @@ $(document).ready(function() {
     });
 
 
+    //registr menu
+    $('.registration_nav .next').click(function() {
+
+        $('.registration_nav .wrapper').animate( { scrollLeft: '+=80' }, 300 );
+
+    });
+
+    $('.registration_nav .previous').click(function() {
+        $('.registration_nav .wrapper').animate( { scrollLeft: '-=80' }, 300 );
+    });
+
+
 
     //advance setting
     $('.advance_setting span').click(function(){

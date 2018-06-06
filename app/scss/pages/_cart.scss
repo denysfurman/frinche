@@ -89,9 +89,7 @@
   a{
     margin-right: 10px;
   }
-  .button_trans.big{
-    top: 2px;
-  }
+
 
 }
 
@@ -164,23 +162,19 @@
 
 .registration_settings_form{
   .edit{
-    margin-right: 10px;
-    display: inline-block;
+
     height: 46px;
     background-color: #f7f7f7;
-    color: #7d7d7d;
-    padding: 0 10px;
-    width: 100%;
-    text-align: center;
-    line-height: 46px;
-    font-size: 14px;
-    font-weight: 200;
-    -webkit-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 5px;
+
     i{
-      margin-right: 10px;
+      margin-right: 0;
       position: relative;
-      top: -3px;
+      top: 0;
+      font-size: 20px;
       img{
         width: 19px;
       }
@@ -321,9 +315,16 @@
   margin-left: 10px;
   height: 34px;
   line-height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   &:hover{
     text-decoration: none;
     background-color: #d6d6d6;
+  }
+  i{
+    font-size: 20px;
   }
   i img {
     width: 17px;
@@ -342,9 +343,9 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  height: 46px;
+  min-height: 46px;
   background-color: #f9f9f9;
-  padding: 0 10px;
+  padding: 5px 10px;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
@@ -372,4 +373,15 @@
 }
 .categories_type_form{
   margin-bottom: 200px;
+}
+.cart_page_form .white_table tbody tr {
+  background-color: #fff!important;
+
+}
+
+.white_table {
+  .item-group.level-0 tr {
+    background-color: #f9f9f9!important;
+
+  }
 }

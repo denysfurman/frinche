@@ -175,7 +175,7 @@ select:focus {
     background-color: #7f7f7f;;
   }
   &.big{
-    height: 51.5px;
+    height: 51px;
     color: #282828;
     border-color:  #282828;;
     line-height: 51px;
@@ -200,9 +200,11 @@ a:focus, a:hover {
   padding: 0 20px;
   border-radius: 3px;
   color: #fff;
-  font-weight: 400;
+  border: 2px solid #e20e79;
+
   text-transform: uppercase;
   text-align: center;
+  font-weight: 700;
 
   display: inline-block;
   &:hover,&:visited,&:active,&:focus  {
@@ -223,11 +225,12 @@ a:focus, a:hover {
     margin-left: 10px;
     i{
       margin-right: 0;
-      top: 0;
-      margin-left: 5px;
+      top: 2px;
+      margin-left: 10px;
       img{
         width: 15px;
       }
+      font-size: 17px;
 
     }
   }
@@ -577,6 +580,9 @@ select , select:active, select:focus{
     border: none;
     th{
       padding: 15px 10px;
+      label{
+        color: #a63f7f;
+      }
     }
   }
   tbody {
@@ -618,6 +624,9 @@ select , select:active, select:focus{
   }
 
 }
+.page_descr{
+  color: #a4a4a4;
+}
 .categories_item_buttons a i {
   margin-right: 7px;
   position: relative;
@@ -628,11 +637,59 @@ select , select:active, select:focus{
   padding: 0;
   margin: 0!important;
 }
+.categories_item .categories_item_buttons a i {
+  margin-right: 7px!important;
 
+}
+.quantity_title{
+  float: left;
+  line-height: 33px;
+  margin-right: 10px;
+}
+.quantity_wr{
+  display: flex ;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 80px;
+  padding: 0 5px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #fff;
+  .quantity-input{
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    margin: 0;
+    &:focus, &:active{
+      border: none!important;
+    }
+
+  }
+  a{
+    color: #ddd;
+    font-size: 25px;
+    line-height: 30px;
+    &.qty-plus{
+      position: relative;
+      top: 2px;
+
+    }
+    &:hover{
+      color: #000;
+    }
+  }
+}
+
+.button_pink{
+  font-weight: 700;
+}
 @import "header";
 @import "mob_menu";
 @import "pages/cart";
 @import "pages/main";
 @import "pages/store";
+@import "pages/reg";
 @import "footer";
 @import "media"; // Always at the end
