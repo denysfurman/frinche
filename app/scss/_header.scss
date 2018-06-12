@@ -299,3 +299,6 @@ header{
 .open .line-menu.end {
   transform: rotate(-90deg) translateX(-3px);
 }
+header .wrapper-menu-wrap nav li:last-child{
+  margin-bottom: 0;
+}

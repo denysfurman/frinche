@@ -1,0 +1,67 @@
+.create_form_wr{
+  display: flex;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 40px 70px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: #282828;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+  }
+  .descr{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .form-control {
+
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .categories_type_form_buttons{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    a{
+      margin-left: 20px;
+      padding: 0 31px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    button{
+      font-weight: bold;
+      font-size: 14px;
+    }
+  }
+  .form_desct{
+    color: #a3a3a3;
+    font-size: 12px;
+    margin-top: 20px;
+    a{
+      color: #e20e79;
+      text-decoration: underline;
+      &:hover{
+        text-decoration: none!important;
+      }
+    }
+
+  }
+  .sing_form{
+    .forgot_pass{
+      display: block;
+      text-align: right;
+      margin-top: 10px;
+      a{
+        color: #e20e79;
+        text-decoration: underline;
+        font-size: 14px;
+      }
+    }
+  }
+}

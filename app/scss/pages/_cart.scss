@@ -385,3 +385,13 @@
 
   }
 }
+
+.categories_item_buttons a {
+  margin-right: 10px;
+  display: flex;
+
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  align-items: center;
+  align-content: center;
+}

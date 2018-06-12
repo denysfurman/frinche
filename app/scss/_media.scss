@@ -272,6 +272,15 @@
     position: absolute;
     top: 26px;
   }
+  .donations_item_wr a {
+
+    width: 90px;
+    height: 41px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 4px;
+    margin-bottom: 10px;
+  }
 }
 
 //Medium: ≥768px
@@ -457,6 +466,28 @@
     background-color: #fff;
     padding: 15px;
 
+  }
+  header.main_header .search.mob {
+
+    top: 25px;
+  }
+  .donations_form_wr {
+    padding: 15px 15px 30px;
+    background: #fff;
+    margin-bottom: 10px;
+  }
+  .create_form_wr .categories_type_form_buttons a {
+    margin-left: 0;
+    padding: 0 31px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .create_form_wr {
+
+    margin: 31px auto 60px;
+    background-color: #fff;
+    padding: 31px 25px;
+    width: 100%;
   }
 }
 
