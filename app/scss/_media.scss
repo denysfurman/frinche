@@ -22,6 +22,7 @@
   .hidden-md-down{
     display: none;
   }
+
   header.main_header .search.mob {
 
 
@@ -281,6 +282,21 @@
     margin-right: 4px;
     margin-bottom: 10px;
   }
+  .dashboard_menu{
+    width: 100%;
+  }
+  .dashboard_main h1{
+    margin-top: 30px;
+  }
+  .dashboard_menu ul{
+    padding: 0;
+  }
+  .dashboard_menu .header_userblock{
+    display: none;
+  }
+  .dashboard_menu ul:before,.dashboard_menu ul:after{
+    display: none;
+  }
 }
 
 //Medium: ≥768px
@@ -488,6 +504,10 @@
     background-color: #fff;
     padding: 31px 25px;
     width: 100%;
+  }
+  .chart_wr {
+    margin-top: 30px;
+    padding: 20px 10px 30px;
   }
 }
 
