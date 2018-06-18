@@ -1,0 +1,52 @@
+.participant_det_form_wr{
+  width: 100%;
+  padding: 0 30px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  .form-label {
+    color: #a63f7f!important;
+    font-size: 14px;
+  }
+  .form-group{
+    margin-bottom: 20px;
+    span{
+      font-size: 14px;
+      color: #747474;
+    }
+
+  }
+  .input_wr {
+
+    margin-bottom: 10px;
+    label{
+      color: #a63f7f;
+    }
+    span{
+      font-size: 14px;
+      color: #747474;
+    }
+    &.date{
+      max-width: 200px ;
+    }
+  }
+  .form-group .form-control::-webkit-input-placeholder {
+    color: #a63f7f
+  }
+  .form-group .form-control::-moz-placeholder {
+    color: #a63f7f
+  }
+  .form-group .form-control:-ms-input-placeholder {
+    color: #a63f7f
+  }
+  .form-group .form-control:-moz-placeholder {
+    color: #a63f7f
+  }
+
+}
+
+.participant_det_form{
+  margin-bottom: 150px;
+  width: 100%;
+  display: block;
+}

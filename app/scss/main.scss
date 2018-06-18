@@ -722,6 +722,8 @@ select , select:active, select:focus{
 .fancybox-close-small::after {
   display: none!important;
 }
+
+
 @import "header";
 @import "mob_menu";
 @import "pages/cart";
@@ -732,6 +734,10 @@ select , select:active, select:focus{
 @import "pages/create";
 @import "pages/dashboard";
 @import "pages/participant";
+@import "pages/myevent";
+@import "pages/procced";
+@import "pages/eventinfo";
+@import "pages/participant_det";
 @import "footer";
 @import "media"; // Always at the end
 

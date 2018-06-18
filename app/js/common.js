@@ -208,43 +208,20 @@ $(document).ready(function() {
 
         });
     }
-    //chart dashbord menu
-    $('.chart_sett span').click(function(){
-        $(".chart_sett_label").slideToggle();
 
+    //switch checkbox
+    $('.switch').change(function(){
+        $(this).toggleClass('checked');
     });
-    //charrt dashbord
-    var ctx = document.getElementById('myChart').getContext('2d');
-    var chart = new Chart(ctx, {
-        // The type of chart we want to create
-        type: 'line',
 
-        // The data for our dataset
-        data: {
-            labels: ["Mon", "Tue", "Wen", "Thu  ", "Fri", "Sat", "Sun"],
-            datasets: [{
-                label: "Statistic #1",
-                backgroundColor: 'transparent',
-                borderColor: '#4bb9ff',
-                data: [0, 8, 5, 2, 2, 3, 5],
+    //participant on/off
+    $('.participant_item ul a').click(function(){
 
-            },{
-                label: "Statistic #2",
-                backgroundColor: 'transparent',
-                borderColor: '#ff6e6e',
-                data: [1, 5, 7, 5, 8, 4, 1],
-
-            }]
-        },
-
-        // Configuration options go here
-        options: {
-            legend: {
-                display:false,
-
-            }
-        }
+        $(".participant_item_sett").not($(this).next()).slideUp();
+        $(this).next(".participant_item_sett").slideToggle();
     });
+
+
 
 
 
@@ -279,3 +256,42 @@ jQuery(document).ready(function($){
 });
 
 $(document).foundation();
+
+//chart dashbord menu
+$('.chart_sett span').click(function(){
+    $(".chart_sett_label").slideToggle();
+
+});
+//charrt dashbord
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: ["Mon", "Tue", "Wen", "Thu  ", "Fri", "Sat", "Sun"],
+        datasets: [{
+            label: "Statistic #1",
+            backgroundColor: 'transparent',
+            borderColor: '#4bb9ff',
+            data: [0, 8, 5, 2, 2, 3, 5],
+
+        },{
+            label: "Statistic #2",
+            backgroundColor: 'transparent',
+            borderColor: '#ff6e6e',
+            data: [1, 5, 7, 5, 8, 4, 1],
+
+        }]
+    },
+
+    // Configuration options go here
+    options: {
+        legend: {
+            display:false,
+
+        }
+    }
+});
+

@@ -297,6 +297,13 @@
   .dashboard_menu ul:before,.dashboard_menu ul:after{
     display: none;
   }
+  .participant_wrap {
+    width: 100%;
+    padding: 0;
+  }
+  .proceed_page .table_wrap table {
+    width: 600px;
+  }
 }
 
 //Medium: ≥768px
@@ -320,12 +327,12 @@
   }
   .categories_item_buttons a {
     margin-right: 0;
-    display: inline-block;
-    height: 36px;
+
+
     background-color: #f7f7f7;
     color: #7d7d7d;
     padding: 0 10px;
-    line-height: 35px;
+
     font-size: 14px;
     font-weight: 200;
     -webkit-border-radius: 5px;
@@ -508,6 +515,45 @@
   .chart_wr {
     margin-top: 30px;
     padding: 20px 10px 30px;
+  }
+  .participant_sort_form .participant_sort_form_search span {
+    margin-left: 0;
+  }
+  .participant_sort_form .participant_sort_form_search{
+    margin-top: 15px;
+  }
+  .participant_page .participant_item ul li {
+    position: static;
+  }
+  .participant_item_sett{
+    left: 15px;
+    width: calc(100% - 30px);
+  }
+  .proceed_page .store_wrap {
+    background-color: #fff;
+    padding:  15px;
+  }
+  .payment_method {
+    background-color: #fff;
+    padding: 20px 15px;
+  }
+  .payment_method_item {
+
+    flex-direction: column;
+  }
+  .payment_method_item div i {
+    width: auto;
+    font-size: 41px;
+    display: inline-block;
+    margin-right: 22px;
+  }
+  .payment_method_item .button_trans{
+    margin-top: 15px;
+  }
+  .discount_code {
+    background-color: #fff;
+    padding: 20px 15px;
+
   }
 }
 

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?6ieiix');
-  src:  url('fonts/icomoon.eot?6ieiix#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?6ieiix') format('truetype'),
-    url('fonts/icomoon.woff?6ieiix') format('woff'),
-    url('fonts/icomoon.svg?6ieiix#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?pnci3h');
+  src:  url('fonts/icomoon.eot?pnci3h#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pnci3h') format('truetype'),
+    url('fonts/icomoon.woff?pnci3h') format('woff'),
+    url('fonts/icomoon.svg?pnci3h#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -44,6 +44,22 @@
 }
 .icon-user:before {
   content: "\e936";
+}
+.icon-bank:before {
+  content: "\e91d";
+  color: #e73d93;
+}
+.icon-cheque:before {
+  content: "\e91e";
+  color: #e73d93;
+}
+.icon-computer:before {
+  content: "\e921";
+  color: #7b7b7b;
+}
+.icon-credit-card2:before {
+  content: "\e937";
+  color: #e73d93;
 }
 .icon-mon:before {
   content: "\e91c";
