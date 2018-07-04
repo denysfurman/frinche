@@ -1,8 +1,8 @@
 header{
   box-shadow: 0 0 3px rgba(0,0,0,.3);
-  height: 94px;
+  height: 70px;
   .wrapper-menu-wrap nav {
-    margin-top: 29px;
+    margin-top: 17px;
     box-shadow: 0px 2px 3px rgba(0,0,0,.3);
     li{
       margin-bottom: 10px;
@@ -21,7 +21,7 @@ header{
 header{
   width: 100%;
   background-color: #fff;
-  padding: 25px 0;
+  padding: 13px 0;
   position: relative;
   margin-bottom: 28px;
 
@@ -33,7 +33,7 @@ header{
     display: flex;
     a{
       font-size: 15px;
-      font-weight: bold;
+      font-weight: 400;
       color: #929292;
       text-transform: uppercase;
       margin-right: 20px;

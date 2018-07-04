@@ -26,8 +26,8 @@
 	var pluginName = 'styler',
 			defaults = {
 				idSuffix: '-styler',
-				filePlaceholder: 'Файл не выбран',
-				fileBrowse: 'Обзор...',
+				filePlaceholder: 'No files',
+				fileBrowse: 'Select file',
 				fileNumber: 'Выбрано файлов: %s',
 				selectPlaceholder: 'Выберите...',
 				selectSearch: false,

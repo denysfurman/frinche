@@ -15,12 +15,32 @@
     transform: rotateZ(-7deg);
 
   }
+  .reg_event_item .button {
+    margin-bottom: 0;
+    opacity: 1;
+  }
+  .participant_det_form_wr {
+    width: 100%;
+  }
+  .participant_det_form {
+    width: 100%;
+
+  }
+  .participant_title{
+    width: 100%;
+    display: table;
+    margin: 10px auto ;
+  }
 }
 
 //Large: ≥992px
 @media only screen and (max-width : 1023px) {
   .hidden-md-down{
     display: none;
+  }
+  participant_det_form_wr {
+    width: 100%;
+    padding: 20px 30px 40px;
   }
 
   header.main_header .search.mob {
@@ -304,6 +324,22 @@
   .proceed_page .table_wrap table {
     width: 600px;
   }
+  #participant_det2 .participant_title {
+
+    padding-left: 15px;
+  }
+  .reg_event_item{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  .reg_event_item .reg_event_item_inform span {
+
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 14px;
+  }
 }
 
 //Medium: ≥768px
@@ -314,6 +350,9 @@
   }
   .categories_item.registration_type {
     padding-left: 0;
+  }
+  .reg_event_wr_inform {
+    padding: 22px 10px;
   }
   .categories_item {
 
@@ -554,6 +593,53 @@
     background-color: #fff;
     padding: 20px 15px;
 
+  }
+  .toolt{
+    display: none;
+  }
+  .page_cust_form_wr {
+    width: 100%;
+    padding: 15px 15px 30px;
+  }
+  .front_page .categories_item_buttons a{
+    width: 40px;
+    margin-right: 10px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  .front_page .categories_item_buttons{
+    flex-direction: row;
+  }
+  .page_cust_form {
+    margin-bottom: 50px;
+  }
+  .reg_form_wr .form-group-wr .delete, .reg_form_wr .form-group-wr .edit, .reg_form_wr .form-group-wr .prog {
+    margin-top: 0;
+  }
+  .reg_form_wr .input_wr.check .delete, .reg_form_wr .input_wr.check .edit, .reg_form_wr .input_wr.check .prog, .reg_form_wr .input_wr.radio .delete, .reg_form_wr .input_wr.radio .edit, .reg_form_wr .input_wr.radio .prog {
+    margin-top: 0px;
+  }
+  .reg_form_wr .categories_item_buttons{
+    flex-direction: row;
+  }
+  .registration_nav ul li a {
+    font-size: 13px;
+    display: block;
+    padding: 20px 8px;
+  }
+  .reg_form_wr .form-control {
+    margin-bottom: 10px;
+    border-color: #d0d0d0;
+  }
+  .categories_type_form {
+    margin-bottom: 50px;
+  }
+  .create_form_wr .categories_type_form_buttons button {
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 0;
+    margin-top: 10px;
   }
 }
 

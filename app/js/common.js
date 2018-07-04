@@ -73,6 +73,11 @@ $(document).ready(function() {
         format: 'mm/dd/yyyy'
 
     });
+    $('#datepicker10').datepicker({
+        autoclose: true,
+        format: 'mm/dd/yyyy'
+
+    });
     $(document).mouseup(function (e) {
         var container = $(".input-group.date ");
         if (container.has(e.target).length === 0){
@@ -222,6 +227,29 @@ $(document).ready(function() {
     });
 
 
+    tinymce.init({
+        selector: '.redactor textarea',
+        width: 100% - 2,
+        height: 200,
+        plugins: [
+            'advlist',
+            'autolink',
+            'lists',
+            'link',
+            'image'
+
+        ],
+
+        content_css: [
+            '//fonts.googleapis.com/css?family=Lato:300,300i,400,400i',
+            '//www.tinymce.com/css/codepen.min.css'
+        ]
+    })
+
+
+
+
+
 
 
 
@@ -257,41 +285,53 @@ jQuery(document).ready(function($){
 
 $(document).foundation();
 
-//chart dashbord menu
-$('.chart_sett span').click(function(){
-    $(".chart_sett_label").slideToggle();
 
-});
-//charrt dashbord
-var ctx = document.getElementById('myChart').getContext('2d');
-var chart = new Chart(ctx, {
-    // The type of chart we want to create
-    type: 'line',
+$(document).ready(function() {
+    //chart dashbord menu
+    $('.chart_sett span').click(function(){
+        $(".chart_sett_label").slideToggle();
 
-    // The data for our dataset
-    data: {
-        labels: ["Mon", "Tue", "Wen", "Thu  ", "Fri", "Sat", "Sun"],
-        datasets: [{
-            label: "Statistic #1",
-            backgroundColor: 'transparent',
-            borderColor: '#4bb9ff',
-            data: [0, 8, 5, 2, 2, 3, 5],
+    });
+    //charrt dashbord
 
-        },{
-            label: "Statistic #2",
-            backgroundColor: 'transparent',
-            borderColor: '#ff6e6e',
-            data: [1, 5, 7, 5, 8, 4, 1],
 
-        }]
-    },
+    function chartDashbord() {
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'line',
 
-    // Configuration options go here
-    options: {
-        legend: {
-            display:false,
+            // The data for our dataset
+            data: {
+                labels: ["Mon", "Tue", "Wen", "Thu  ", "Fri", "Sat", "Sun"],
+                datasets: [{
+                    label: "Statistic #1",
+                    backgroundColor: 'transparent',
+                    borderColor: '#4bb9ff',
+                    data: [0, 8, 5, 2, 2, 3, 5],
 
-        }
+                }, {
+                    label: "Statistic #2",
+                    backgroundColor: 'transparent',
+                    borderColor: '#ff6e6e',
+                    data: [1, 5, 7, 5, 8, 4, 1],
+
+                }]
+            },
+
+            // Configuration options go here
+            options: {
+                legend: {
+                    display: false,
+
+                }
+            }
+        });
     }
-});
+    if($("#myChart").length>0) {
+        chartDashbord();
+    }
 
+
+
+});

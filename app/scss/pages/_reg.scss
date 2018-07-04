@@ -66,6 +66,10 @@
         padding: 20px 20px;
         text-decoration: none;
         color: black;
+        border-bottom: 2px solid transparent;
+        &.active,&:hover{
+          border-bottom: 2px solid #e20f7a;
+        }
       }
     }
   }
@@ -79,6 +83,10 @@
     label{
       color: #a63f7f;
     }
+  }
+  .tabs li a {
+    position: relative;
+    top: 0;
   }
 }
 
@@ -110,5 +118,171 @@
   &:hover {
     text-decoration: none;
     background-color: #d6d6d6;
+  }
+}
+
+.reg_form_wr{
+
+  .categories_item_buttons a {
+
+    i{
+      margin-right: 5px!important;
+    }
+
+  }
+  .edit,.delete,.prog{
+    width: 25px !important;
+    margin-left: 5px;
+    &:last-child{
+      margin-left: 0;
+    }
+    i{
+      font-size: 16px;
+    }
+  }
+  .form-group{
+    label{
+      color: #a63f7f;
+      margin-top: 0;
+    }
+  }
+
+  .form-control {
+
+    margin-bottom: 20px;
+    border-color: #d0d0d0;
+  }
+  .js-unhighlight-label {
+    color: #a63f7f!important;
+  }
+
+  .reg_inf{
+    color: #8c8a8a;
+  }
+
+  .form-group .form-control::-webkit-input-placeholder {
+    color: #a63f7f
+  }
+  .form-group .form-control::-moz-placeholder {
+    color: #a63f7f
+  }
+  .form-group .form-control:-ms-input-placeholder {
+    color: #a63f7f
+  }
+  .form-group .form-control:-moz-placeholder {
+    color: #a63f7f
+  }
+
+  .form-group-wr{
+    .edit,.delete,.prog{
+      margin-top: 10px;
+    }
+    textarea{
+      border: 1px solid #d0d0d0!important;
+      padding:10px 15px;
+      font-size: 14px;
+      height: 100px;
+      color: #000;
+
+    }
+  }
+  .input_wr.check,.input_wr.radio{
+    margin-bottom: 10px;
+    label{
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .edit,.delete,.prog{
+      margin-top: 20px;
+    }
+
+  }
+  .input_wr.file{
+    margin-bottom: 20px;
+  }
+
+}
+
+.reg_form_wr.main_tab {
+
+  height: 100%;
+}
+.reg_form_wr{
+  margin-top: 0;
+}
+.registration_nav{
+  margin-bottom: 20px;
+}
+
+
+
+.reg_event_wr_inform{
+  padding: 30px 40px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  >span{
+    display: block;
+    color: #a63f7f;
+    font-size: 16px;
+
+  }
+  >h3{
+    display: block;
+    color: #a63f7f;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.reg_event_item{
+  display: flex;
+  padding: 20px;
+  background-color: #f9f9f9;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  margin-top: 15px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+  &:hover{
+    background-color: #ffeff7;
+    .button{
+      opacity: 1;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  .button{
+    margin-bottom: 0;
+    opacity: 0;
+  }
+  p{
+    margin-bottom: 0;
+  }
+  .reg_event_item_title{
+    span{
+      font-size: 14px;
+      font-weight: bold;
+      color: #000;
+    }
+    p{
+
+      font-size: 14px;
+      font-weight: bold;
+      color: #959393;
+
+    }
+  }
+  .reg_event_item_inform{
+    span{
+      color: #dc0271;
+      line-height: 1;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-right: 20px;
+      letter-spacing: 0.37px;
+    }
   }
 }
