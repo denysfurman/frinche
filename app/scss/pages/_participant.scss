@@ -341,3 +341,14 @@
 .wrapper-menu-wrap nav{
   z-index: 100;
 }
+
+.switch input:before {
+  background: #989898;
+}
+.switch input:after {
+  background: #989898;
+}
+.switch .power-off {
+  float: right;
+  color: #989898!important;
+}

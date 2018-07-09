@@ -1,0 +1,43 @@
+.pay_instruction{
+  font-size: 16px;
+  margin-top: 50px;
+  >li{
+    position: relative;
+    padding-left: 45px;
+    min-height: 33px;
+    margin-bottom: 15px;
+    ul{
+      margin-top: 20px;
+      li{
+        margin-bottom: 5px;
+      }
+    }
+  }
+  span{
+    width: 33px;
+    height: 33px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50% ;
+    position: absolute;
+    left: 0;
+    top: -5px;
+
+  }
+}
+
+.email_cust_form .categories_type_form_buttons{
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 30px;
+  .new_acl{
+    margin-right: 15px;
+  }
+}

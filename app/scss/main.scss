@@ -782,7 +782,10 @@ input[type="file"]{
 }
 .page{
   margin-bottom: 50px;
+  min-height: calc(100vh - 456px);
 }
+
+
 
 @import "header";
 @import "mob_menu";
@@ -798,6 +801,7 @@ input[type="file"]{
 @import "pages/procced";
 @import "pages/eventinfo";
 @import "pages/participant_det";
+@import "pages/small";
 @import "pages/page_cust";
 @import "footer";
 @import "media"; // Always at the end

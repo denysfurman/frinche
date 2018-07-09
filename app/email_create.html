@@ -143,111 +143,128 @@
 
 <div class="grid-container">
     <div class="grid-x grid-padding-x">
-        <div class="large-12  cell">
-            <h1>Proceed to Pay</h1>
-            <div class="proceed_page">
-                <div class="discount_code">
-                    <span>Discount Code</span>
-                    <form action="#">
-                        <input type="text">
-                        <button class="button_trans big">Apply</button>
-                    </form>
+        <div class="large-12 medium-12  cell">
+            <h1>Create Email</h1>
+
+            <form  class="email_cust_form" method="POST" action="">
+                <div class="page_cust_form_wr">
+
+
+                    <h3>Editor</h3>
+                    <span>Enter details fo this email. You can send it now, schedule it, or save it as a draft.</span>
+
+
+                    <div class="front_page">
+
+
+
+                        <div class="input_wr">
+                            <label>From Name</label>
+                            <input type="text" >
+                        </div>
+                        <div class="input_wr">
+                            <label>From Email</label>
+                            <input type="email" >
+                        </div>
+                        <div class="input_wr">
+                            <label>Reply To</label>
+                            <input type="text" >
+                        </div>
+                        <div class="input_wr">
+                            <label>To</label>
+                            <textarea cols="30" rows="10"></textarea>
+                        </div>
+
+                        <div class="input_wr file">
+                            <span class="title">
+                                Count recipients <span class="toolt" tooltip="I'm up above it!" flow="right"><i class="fa fa-info-circle"></i></span>
+                                <br>
+                                Please select at least one recipient
+
+                            </span>
+                            <input type="file" class="form_style">
+                            <div class="file_wr"></div>
+
+                        </div>
+
+                        <div class="input_wr">
+                            <label>Subject</label>
+                            <input type="text" >
+                        </div>
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-12 cell">
+                                <div class="input_wr">
+
+                                    <label>Selected event</label>
+                                </div>
+                            </div>
+
+
+                            <div class="large-8 medium-7  cell">
+                                <div class="input_wr">
+
+                                    <input type="text" >
+                                </div>
+                            </div>
+                            <div class="large-4 medium-5 small-12 cell">
+                                <div class="input_wr file">
+                                    <input type="file" class="form_style">
+                                    <div class="file_wr"></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="redactor">
+                            <label >Subject</label>
+                            <textarea></textarea>
+                        </div>
+                        <br>
+                        <br>
+
+                        <h3>Scedule delivery</h3>
+                        <div class="large-9 medium-8 cell">
+                               <span class="title">
+                                   Schedule
+                               </span>
+                            <div class="input_wr radio">
+                                <label for="redioee_2"><input type="radio" name="ree_1" id="redioee_2"
+                                                              class="form_style"> Now</label>
+                                <label for="radioee_1"><input type="radio" name="ree_1" id="radioee_1"
+                                                              class="form_style"> Later</label>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+
+                        <h3>Tracking</h3>
+                        <span>Tag this email to assist in tracking</span>
+                        <div class="input_wr">
+                            <label>Description</label>
+                            <input type="text" >
+                        </div>
+
+
+
+                        <div class="categories_type_form_buttons">
+                            <div>
+                                <a href="#"  class="button_trans new_acl">Cancel</a>
+                                <a href="#"  class="button_trans new_acl">Preview</a>
+                                <a href="#"  class="button_trans new_acl">Save as draft</a>
+                            </div>
+                            <button class="button_pink big continue">SAVE <i class="icon-right-arrow-forward"></i></button>
+                        </div>
+
+
+
+
+                    </div>
                 </div>
 
-                <div class="store_wrap">
-                    <div class="app-group table_wrap">
-                        <table class="checkout white_table" cellspacing="0" cellpadding="0">
-                            <thead class="bottom-border">
-                            <tr>
-
-                                <th> Happy Running 2018 </th>
-                                <th class="text-center"> Discount</th>
-                                <th  class="text-center"> HKD</th>
-
-                            </tr>
-                            </thead>
-                            <tbody class="item-group level-0">
-                            <tr class="item" data-unit-price="" data-ccy="EUR">
-
-                                <td class="item-desc"> C2 - R1</td>
-                                <td class="text-center">
-                                   0000
-                                </td>
-                                <td class="text-center"> 34534 EUR</td>
-
-                            </tr>
-                            </tbody>
-                            <tbody class="item-group level-1">
-                            <tr class="item" data-unit-price=" data-ccy="EUR">
-
-                                <td class="item-desc"> My First Name Ok</td>
-                                <td class="text-center">
-
-                                </td>
-                                <td class="text-center" >436 EUR</td>
-
-                            </tr>
-                            </tbody>
-
-                        </table>
-                    </div>
-                </div>
-
-                <div class="payment_method">
-                    <h3>Payment Method</h3>
-                    <p>Select a payment method</p>
-                    <div class="payment_method_item">
-                        <div>
-                            <i class="icon-cheque"></i>
-                            <span>Cheque</span>
-                        </div>
-                        <a href="#" class="button_trans">Proceed to checkout</a>
-                    </div>
-
-                    <div class="payment_method_item">
-                        <div>
-                            <i class="icon-bank"></i>
-                            <span>Bank Deposite</span>
-                        </div>
-                        <a href="#" class="button_trans">Proceed to checkout</a>
-                    </div>
 
 
-                    <div class="payment_method_item">
-                        <div>
-                            <i class="icon-credit-card2"></i>
-                            <span>VISA / MasterCard / UnionPay</span>
-                        </div>
-                        <a href="#" class="button_trans">Proceed to checkout</a>
-                    </div>
 
-
-                    <div class="payment_method_item">
-                        <div>
-                            <i class="icon-credit-card2"></i>
-                            <span>VISA / MasterCard</span>
-                        </div>
-                        <a href="#" class="button_trans">Proceed to checkout</a>
-                    </div>
-
-
-                    <div class="payment_method_item">
-                        <div>
-                            <i class="icon-credit-card2"></i>
-                            <span>Stripe - VISA / MasterCard</span>
-                        </div>
-                        <a href="#" class="button_trans">Proceed to checkout</a>
-                    </div>
-                </div>
-
-                <div class=" text-right">
-                    <div class="categories_type_form_buttons">
-                        <a href="#" class="button_pink  big">Cancel</a>
-                    </div>
-                </div>
-            </div>
-            <br>
-
+            </form>
         </div>
     </div>
 </div>
@@ -359,6 +376,7 @@
 
 </body>
 </html>
+
 <div id="category_settings_popup" class="fsb_popup">
     <div class="grid-x grid-padding-x">
 
