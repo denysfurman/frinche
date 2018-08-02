@@ -645,5 +645,33 @@
     margin-right: 0;
     margin-top: 10px;
   }
+  .form-control {
+    font-weight: 500!important;
+    font-size: 15px!important;
+
+  }
+  #reg_edit_popup ul.tabs {
+    width: 100%;
+    flex-wrap: wrap;
+    border-bottom: 0;
+  }
+  #reg_edit_popup ul.tabs li{
+    margin-bottom: 10px;
+  }
+
+  .finansical_report_inform_item li {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .ballot_wr {
+    width: 100%;
+    padding: 15px;
+  }
+  .message_link_menu{
+    display: inline-block;
+  }
+  .message_list{
+    display: none;
+  }
 }
 

@@ -26,8 +26,9 @@
 
 
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.standalone.min.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.min.css">
 
 </head>
@@ -169,6 +170,73 @@
                         <div class="input_wr">
                             <label>Reply To</label>
                             <input type="text" >
+                        </div>
+                        <div class="email_cust_menu">
+                            <div class="page_point">+</div>
+
+                                <ul class="vertical menu" id="to-preset-keys">
+                                    <li>
+                                        <a data-key="ALL_PARTICIPANTS/ACTIVE|APPROVED|PENDING" href="#"> All Participants </a>
+                                    </li>
+                                    <ul class="vertical menu nested">
+
+                                        <li>
+                                            <a data-key="CAT/thCs20TDV1iqaLCGoHDlKs/ACTIVE|APPROVED|PENDING" href="#"> Elite Race </a>
+                                            <ul class="vertical menu nested">
+
+                                                <a data-key="REG/YdXvCXY9iC3vli1uxYXyPX/ACTIVE|APPROVED|PENDING" href="!#"> Adult </a>
+
+                                                <a data-key="REG/cabOXMUu61cVxqg7ajviju/ACTIVE|APPROVED|PENDING" href="!#"> Student </a>
+
+                                                <a data-key="REG/l1ngBFzhCLmxM2l2XINFXI/ACTIVE|APPROVED|PENDING" href="!#"> Secret Hehe </a>
+
+                                            </ul>
+                                        </li>
+
+                                        <li>
+                                            <a data-key="CAT/tZjPkcN4lDPQSGSUFjFOMy/ACTIVE|APPROVED|PENDING" href="#"> Open </a>
+                                            <ul class="vertical menu nested">
+
+                                                <a data-key="REG/L7VIO24fYGi59pWgJJUlfh/ACTIVE|APPROVED|PENDING" href="!#"> Adult </a>
+
+                                                <a data-key="REG/NEoIXaRzru8GrQgCcMFNc5/ACTIVE|APPROVED|PENDING" href="!#"> Student </a>
+
+                                            </ul>
+                                        </li>
+
+                                        <li>
+                                            <a data-key="CAT/NohcmQI8oUUYHLDxBiVMiY/ACTIVE|APPROVED|PENDING" href="#"> Demo Registration </a>
+                                            <ul class="vertical menu nested">
+
+                                                <a data-key="REG/LFlVUnF2zlJjAjzllGsAzX/ACTIVE|APPROVED|PENDING" href="!#"> Public Ballot Entry - Marathon Races (DEMO) </a>
+
+                                                <a data-key="REG/J1DiMBFqdXB930rG7bTJeN/ACTIVE|APPROVED|PENDING" href="!#"> All Question Types </a>
+
+                                                <a data-key="REG/pofDcwjAZPNPVorMTAZ2Ak/ACTIVE|APPROVED|PENDING" href="!#"> Public Ballot Entry - Team (DEMO) </a>
+
+                                                <a data-key="REG/6dEYNOVqevz8WE1HuT37ff/ACTIVE|APPROVED|PENDING" href="!#"> Public Ballot Entry - Together (DEMO) </a>
+
+                                            </ul>
+                                        </li>
+
+                                        <li>
+                                            <a data-key="CAT/u8WwCJEyY28V0Z4xcmwhxJ/ACTIVE|APPROVED|PENDING" href="#"> Ballot Demo </a>
+                                            <ul class="vertical menu nested">
+
+                                                <a data-key="REG/x0BzCDxhCJiLJpBgXA94xx/ACTIVE|APPROVED|PENDING" href="!#"> Demo 1 </a>
+
+                                                <a data-key="REG/QTbwnjMGPWk9exslkYPkv3/ACTIVE|APPROVED|PENDING" href="!#"> Demo 2 </a>
+
+                                                <a data-key="REG/wYsamSy4vl8BwNoUcZMvvV/ACTIVE|APPROVED|PENDING" href="!#"> Demo 3 </a>
+
+                                                <a data-key="REG/6IVjPEVfsUB06uXXCH7xH4/ACTIVE|APPROVED|PENDING" href="!#"> Demo 4 </a>
+
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </ul>
+
                         </div>
                         <div class="input_wr">
                             <label>To</label>
@@ -352,7 +420,13 @@
         <li><a href="acl_list.html">ACL list</a></li>
         <li><a href="pay_inst.html">Payment Instructions</a></li>
         <li><a href="email_create.html">Create Email</a></li>
+        <li><a href="finans.html">Finansical Report</a></li>
+        <li><a href="ballot.html">Ballot Entries</a></li>
 
+        <li><a href="sitebar.html">Sitebar</a></li>
+        <li><a href="404.html">404.html</a></li>
+        <li><a href="mail.html">Mail Box</a></li>
+        <li><a href="store_label.html">Store Label</a></li>
 
     </ul>
 </div>
@@ -1185,5 +1259,281 @@
 
 
         </form>
+    </div>
+</div>
+
+
+<div id="reg_code_popup" class="fsb_popup">
+    <div class="grid-x grid-padding-x">
+        <h2>Edit Title</h2>
+        <form action="" class="event_language">
+
+            <div class="input_wr">
+                <label>Preset</label>
+                <select>
+                    <option value="Please select">Please select</option>
+                    <option value="select 1">Select 1</option>
+                    <option value="select 2">Select 2</option>
+                    <option value="select 3">Select 2</option>
+                </select>
+
+            </div>
+
+            <div class="input_wr">
+                <label>Layout Template</label>
+                <textarea  cols="30" rows="10">
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pf-hf-inline">
+                            <span data-field="label" class="LabelText"> Label </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <input type="text" id="pf-hf-inline">
+                        <p data-field="desc" class="desc"></p>
+                    </div>
+                </textarea>
+            </div>
+
+            <div class="input_wr">
+                <label>Item Template</label>
+                <textarea  cols="30" rows="10">
+
+                </textarea>
+            </div>
+
+
+            <div class="categories_type_form_buttons">
+
+                <button class="button_pink big">Save </button>
+            </div>
+
+
+
+
+        </form>
+    </div>
+</div>
+
+<div id="reg_edit_popup" class="fsb_popup">
+    <div class="grid-x grid-padding-x">
+        <h2>Edit Layout</h2>
+
+        <ul class="tabs clearfix" data-tabgroup="reg_edit-tab-group">
+            <li><a href="#reg_tab1" class="active">General</a></li>
+            <li><a href="#reg_tab2">Validation</a></li>
+            <li><a href="#reg_tab3">Advanced</a></li>
+            <li><a href="#reg_tab4">Flags</a></li>
+
+        </ul>
+        <section id="reg_edit-tab-group" class="tabgroup">
+            <div id="reg_tab1" >
+                <div class="row" data-fscope="required" >
+                    <div class="large-12 columns">
+                        <div class="input_wr">
+                            <label for="pdef-required">
+                                <input id="pdef-required" class="form_style" type="checkbox" value="">
+                                Required
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row" data-fscope="label" >
+                    <div class="large-12 columns">
+                        <div class="input_wr">
+                            <label class="large-middle" for="pdef-label">
+                                <span class="LabelText"> Label </span>
+                                <input id="pdef-label" type="text">
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row" data-fscope="desc" >
+
+                    <div class="large-12 columns">
+                        <div class="input_wr">
+                            <label for="pdef-desc">Desc</label>
+                            <input id="pdef-desc" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-fscope="hint" >
+
+                    <div class="large-8 columns">
+                        <div class="large-12 columns">
+                            <div class="input_wr">
+                                <label for="pdef-hint">Hint</label>
+                                <input id="pdef-hint" type="text">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="pdef-hint-template" >
+                        <i data-field="hint" class="fi fi-info no-border"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div id="reg_tab2" class="input_wr" >
+                <div class="row" data-fscope="match">
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-match">
+                            <span class="LabelText"> Match </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <select id="pdef-match">
+                            <option value=""> Please Select </option>
+                            <option value="email"> Email </option>
+                            <option value="url"> URL </option>
+                            <option value="hkid"> HKID </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row" data-fscope="passwd" >
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-passwd">
+                            <span class="LabelText"> Set password </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <input id="pdef-passwd" type="password">
+                    </div>
+                    <div id="pdef-passwd-template" hidden="">
+                        <i data-field="passwd" class="fi fi-info no-border"></i>
+                    </div>
+                </div>
+                <div class="row" data-fscope="range_type" >
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-range_type">
+                            <span class="LabelText"> Range Type </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <select id="pdef-range_type">
+                            <option value=""> Please Select </option>
+                            <option value="charlen"> Character length </option>
+                            <option value="number"> Number </option>
+                            <option value="date"> Date </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x" data-fscope="range">
+                    <div class="large-12 cell ">
+                        <label class="large-middle" for="pdef-range">
+                            <span class="LabelText"> Limit Range </span>
+                        </label>
+                    </div>
+                    <div class="large-6 medium-6 cell">
+                        <input id="pdef-range-from" type="text">
+                    </div>
+                    <div class="large-6 medium-6 cell">
+                        <input id="pdef-range-to" type="text">
+                    </div>
+                </div>
+                <div class="row" data-fscope="uniqness" >
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-uniq-sid">
+                            <span class="LabelText"> Uniqueness </span>
+                        </label>
+                    </div>
+                    <div class="large-3 columns">
+                        <input id="pdef-uniq-sid" placeholder="SID" type="text">
+                    </div>
+                    <div class="large-5 columns">
+
+                        <select id="pdef-uniq-scope">
+                            <option value=""> Please Select </option>
+                            <option value="app"> Application </option>
+                            <option value="cat"> Category </option>
+                            <option value="reg"> Registration </option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="row" data-fscope="file_opts" >
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-file_opts">
+                            <span class="LabelText"> File Types </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <textarea id="pdef-file_opts" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="row" data-fscope="acl" >
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-acl">
+                            <span class="LabelText"> Access Control List </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <select id="pdef-acl">
+                            <option value=""> Please Select </option>
+
+                            <option value="2"> qqq </option>
+
+                            <option value="1"> kjbkjh </option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="row" data-fscope="equal" >
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-equal">
+                            <span class="LabelText"> Equal </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <input id="pdef-equal" type="text">
+                    </div>
+                </div>
+            </div>
+
+            <div id="reg_tab3" >
+                <div class="row">
+                    <div class="large-12 columns">
+                        <p class="warning"> WARNING: Changing this might corrupt your data! </p>
+
+                    </div>
+                </div>
+                <div class="row" data-fscope="xkey" style="" data-force-show="1">
+                    <div class="large-12 columns">
+                        <label class="large-middle" for="pdef-xkey">
+                            <span class="LabelText"> Cross Key </span>
+                        </label>
+                        <input id="pdef-xkey" type="text">
+                    </div>
+
+                </div>
+                <div class="row" data-fscope="flag" style="" data-force-show="1">
+                    <div class="large-12 columns">
+                        <label class="large-middle" for="pdef-flag">
+                            <span class="LabelText"> Flag Values </span>
+                        </label>
+                        <input id="pdef-flag" type="text">
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="reg_tab4" >
+                <div class="row" class="input_wr">
+                    <div class="large-6 columns">
+                        <p> Readonly on Self Edit </p>
+                        <label class="switch checked">
+                            <i class="check">on</i>
+                            <i class="power-off">off</i>
+                            <input type="checkbox" checked>
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
     </div>
 </div>

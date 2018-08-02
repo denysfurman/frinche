@@ -10,7 +10,13 @@
                 in quem liber pri, ius ad congue postea.</p>
             <hr>
             <div class="participant_page">
+                <ul class="participant_nav">
+                    <li><a href="#" class="active">Import</a></li>
+                    <li><a href="#">Auto Aling</a></li>
+                    <li><a href="#">Manual Aling</a></li>
+                </ul>
                 <div class="participant_item">
+
                     <ul>
                         <li>
                             <a href="#" class="active">First name</a>
@@ -132,14 +138,18 @@
                 <div class="participant_sort_form">
                     <form action="#">
                         <div class="grid-x grid-padding-x">
-                            <div class="large-2 medium-3  cell">
+                            <div class="large-2 medium-4 small-10 cell">
                                 <select name="#" >
                                     <option value="">Export CSV</option>
                                     <option value="">Export PDF</option>
                                 </select>
+
+                            </div>
+                            <div class="large-1 medium-2 small-2 cell">
+                                <button class="button participant_go"><i class="fas fa-arrow-right"></i></button>
                             </div>
 
-                            <div class="large-3 medium-6  cell">
+                            <div class="large-2 medium-4  cell">
                                 <p class="participant_item_inf"><span>3</span> selected items</p>
                             </div>
                             <div class="large-3 medium-6  cell">
@@ -168,75 +178,114 @@
                         </div>
                     </form>
                 </div>
-                <div class="participant_wrap">
-                    <div class="table_wrap">
+
+
+
+
+
+
+                <div class="participant_table_scroll">
+                    <div class="previous">
+                        <i class="fas fa-caret-left"></i>
+                    </div>
+                    <div class="next">
+                        <i class="fas fa-caret-right"></i>
+                    </div>
+                    <div class="wrapper">
                         <table id="participant_table" class="white_table">
                             <thead>
-                            <tr>
-                                <th> ID</th>
-                                <th> First Name</th>
-                                <th> Last Name</th>
-                                <th> Nationality</th>
-                                <th> Status</th>
-                                <th>Actions</th>
-                            </tr>
+                                <tr>
+                                    <th >
+                                        <label > <input class="form_style" type="checkbox" data-name="all-checkbox">All  </label>
+
+                                    </th>
+                                    <th> ID</th>
+                                    <th> First Name</th>
+                                    <th> Last Name</th>
+                                    <th> Nationality</th>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+
+
+                                    <th> Status</th>
+                                    <th>Actions</th>
+                                </tr>
                             </thead>
                             <tbody>
-                            <tr class="active">
-                                <td>1</td>
-                                <td>John</td>
-                                <td> Lorem</td>
-                                <td> British</td>
-                                <td>
-                                    <div class="participant_table_status_button">
-                                        <a href="#" class="small_butt_grey">Draft</a>
-                                        <a href="#" class="small_butt_rose">Preview</a>
-                                    </div>
+                                <tr class="active">
+                                    <td  >
+                                        <input class="form_style" type="checkbox" checked data-name="all-checkbox">
+                                    </td>
+                                    <td>1</td>
+                                    <td>John</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> British</td>
+                                    <td class="participant_table_status">
+                                        <div class="participant_table_status_button">
+                                            <a href="#" class="small_butt_grey">Draft</a>
+                                            <a href="#" class="small_butt_rose">Preview</a>
+                                        </div>
 
-                                </td>
-                                <td>
-                                    <div class="categories_item_buttons">
-                                        <a href="#"><i class="icon-edit"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
+                                    </td>
+                                    <td>
+                                        <div class="categories_item_buttons">
+                                            <a href="#"><i class="icon-edit"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
 
-                            <tr >
-                                <td>2</td>
-                                <td>John</td>
-                                <td> Lorem</td>
-                                <td> British</td>
-                                <td>
-                                    <div class="participant_table_status_button">
-                                        <a href="#" class="small_butt_grey">Draft</a>
-                                        <a href="#" class="small_butt_rose">Preview</a>
-                                    </div>
+                                <tr>
+                                    <td  >
+                                        <input class="form_style" type="checkbox" checked data-name="all-checkbox">
+                                    </td>
+                                    <td>1</td>
+                                    <td>John</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> Lorem</td>
+                                    <td> British</td>
+                                    <td class="participant_table_status">
+                                        <div class="participant_table_status_button">
+                                            <a href="#" class="small_butt_grey">Draft</a>
+                                            <a href="#" class="small_butt_rose">Preview</a>
+                                        </div>
 
-                                </td>
-                                <td>
-                                    <div class="categories_item_buttons">
-                                        <a href="#"><i class="icon-edit"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class="active" >
-                                <td>3</td>
-                                <td>John</td>
-                                <td> Lorem</td>
-                                <td> British</td>
-                                <td>
-                                    <div class="participant_table_status_button">
-                                        <a href="#" class="small_butt_grey">Draft</a>
-                                        <a href="#" class="small_butt_rose">Preview</a>
-                                    </div>
-
-                                </td>
-                                <td>
-                                    <div class="categories_item_buttons">
-                                        <a href="#"><i class="icon-edit"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
+                                    </td>
+                                    <td>
+                                        <div class="categories_item_buttons">
+                                            <a href="#"><i class="icon-edit"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -249,6 +298,9 @@
 
                     <li><a href="#" class="next">Next <i class="fas fa-caret-right"></i></a></li>
                 </ul>
+
+
+
 
 
 

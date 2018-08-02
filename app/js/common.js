@@ -98,6 +98,33 @@ $(document).ready(function() {
         $('.registration_nav .wrapper').animate( { scrollLeft: '-=80' }, 300 );
     });
 
+    //partisipant table
+    $('.participant_table_scroll .next').click(function() {
+
+        $('.participant_table_scroll .wrapper').animate( { scrollLeft: '+=100' }, 300 );
+
+    });
+
+    $('.participant_table_scroll .previous').click(function() {
+        $('.participant_table_scroll .wrapper').animate( { scrollLeft: '-=100' }, 300 );
+    });
+
+    //point
+    $('.email_cust_menu .page_point').click(function() {
+
+        $('.email_cust_menu').toggleClass("active");
+
+    });
+
+    //mail list buttton
+    $('.menu-link').click(function(e) {
+        e.preventDefault();
+        $(this).toggleClass('close');
+        $('.message_list').slideToggle();
+    });
+
+
+
 
 
     //advance setting

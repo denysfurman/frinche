@@ -312,3 +312,54 @@
     margin-left: 10px;
   }
 }
+.black{
+  color: #555!important;
+}
+
+#reg_edit_popup{
+  ul.tabs{
+    width: 100%;
+  }
+  section{
+    width: 100%;
+  }
+  .warning{
+    color: red;
+    font-size: 18px;
+  }
+  input:checked~.switch-paddle {
+    background: #a63f7f;
+  }
+}
+
+
+.reg_form_wr {
+
+  border-bottom: 1px dashed #ddd;
+}
+
+.registration_language{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  li{
+    width: 50%;
+    a{
+      box-sizing: border-box;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      border: 1px solid #ccc;
+      color: #ccc;
+      line-height: 1.2;
+      &.active{
+        border: 1px solid #a63f7f;
+        color: #a63f7f;
+      }
+    }
+
+
+  }
+}

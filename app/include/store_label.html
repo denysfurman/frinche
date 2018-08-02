@@ -1,0 +1,195 @@
+//= components/head.html
+//= components/header-2.html
+
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="large-12  cell">
+            <h1>Store</h1>
+            <p class="page_descr">Eu vis veniam posidonium, in postea alterum fabulas vel, mel alia ponderum vituperata eu. Nec admodum
+                copiosae consectetuer in,
+                in quem liber pri, ius ad congue postea.</p>
+
+            <form id="event-form" class="event-form" method="POST" action="">
+                <div class="store_wrap">
+                    <div class="input_wr">
+                        <label class="bottomless">
+                            <span class="normal-size"> Store Label </span>
+                            <input name="name" class="uns-field" type="text">
+                        </label>
+                    </div>
+                    <div class="input_wr">
+                        <label class="bottomless">
+                            <span class="normal-size"> Store Description </span>
+                            <textarea name="desc" rows="3"></textarea>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="store_wrap">
+
+                    <h4> Product </h4>
+                    <div class="table_wrap">
+                        <table id="ap-items-list" class="white_table">
+                            <thead>
+                            <tr>
+                                <th> Item</th>
+                                <th> Unit Price</th>
+                                <th> Max Qty per order</th>
+                                <th> Quota</th>
+                                <th></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Lorem ipsum.</td>
+                                <td>Lorem ipsum.</td>
+                                <td> Lorem ipsum.</td>
+                                <td> Lorem ipsum.</td>
+                                <td>
+                                    <div class="categories_item_buttons">
+                                        <a href="#"><i class="icon-copy-files"></i></a>
+                                        <a href="#"><i class="icon-edit"></i></a>
+                                        <a href="#"><i class="icon-rubbish-bin"></i></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>name_1</td>
+                                <td>name_1</td>
+                                <td>name_1</td>
+                                <td>name_1</td>
+                                <td>
+                                    <div class="categories_item_buttons">
+                                        <div class="categories_item_buttons">
+                                            <a href="#"><i class="icon-copy-files"></i></a>
+                                            <a href="#"><i class="icon-edit"></i></a>
+                                            <a href="#"><i class="icon-rubbish-bin"></i></a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--popup
+                    <div id="ap_data" hidden="">
+                        <div id="ap_data_1">
+                            <input type="hidden" name="dat-name" value="dfgdfgdfgdfg">
+                            <input type="hidden" name="dat-desc" value="dxgdfgdfg">
+                            <input type="hidden" name="dat-price_0" data-multiple="true" value="dfgdfg">
+                            <input type="hidden" name="dat-price_1" data-multiple="true" value="HKD">
+                            <input type="hidden" name="dat-cats" data-multiple="true" value="cat-0 cat-1">
+                            <input type="hidden" name="dat-regs" data-multiple="true" value="reg-0 reg-1 reg-2 reg-3">
+                            <input type="hidden" name="dat-all-cats" value="on">
+                            <input type="hidden" name="dat-avail" value="vis-only">
+                            <input type="hidden" name="dat-min_order" value="dfgdfg">
+                            <input type="hidden" name="dat-max_order" value="dfgdfg">
+                            <input type="hidden" name="dat-quota" value="dfgdfgdf">
+                            <input type="hidden" name="dat-image" value="::DESTROYED::">
+                            <input type="hidden" name="dat-key" value="::DEFAULT::">
+                            <input type="hidden" name="pd-no-region_inc" value="">
+                            <input type="hidden" name="pd-no-region_exc" value="">
+                            <input type="hidden" name="pd-no-fee" value="">
+                            <input type="hidden" name="pd-no-use" value="0">
+                            <input type="hidden" name="pd-post-region_inc" value="">
+                            <input type="hidden" name="pd-post-region_exc" value="">
+                            <input type="hidden" name="pd-post-fee" value="">
+                            <input type="hidden" name="pd-post-use" value="1">
+                            <input type="hidden" name="pd-courier-region_inc" value="">
+                            <input type="hidden" name="pd-courier-region_exc" value="">
+                            <input type="hidden" name="pd-courier-fee" value="112123123">
+                            <input type="hidden" name="pd-courier-use" value="1">
+                            <input type="hidden" name="pd-digital-region_inc" value="">
+                            <input type="hidden" name="pd-digital-region_exc" value="">
+                            <input type="hidden" name="pd-digital-fee" value="">
+                            <input type="hidden" name="pd-digital-use" value="0">
+                            <input type="hidden" name="pd-pickup-region_inc" value="">
+                            <input type="hidden" name="pd-pickup-region_exc" value="">
+                            <input type="hidden" name="pd-pickup-fee" value="">
+                            <input type="hidden" name="pd-pickup-use" value="0">
+                        </div>
+                    </div>
+                    -->
+                    <a href="#!" class="add-product-btn button_trans"> Add Product </a>
+                </div>
+
+                <div class="store_wrap">
+                    <h4> Collection methods </h4>
+                    <div class="table_wrap">
+
+                        <table id="coll-list" class="white_table align-top">
+                            <thead>
+                            <tr>
+                                <th> Item</th>
+                                <th> Collection method</th>
+                                <th> Available Regions</th>
+                                <th> Not Available to</th>
+                                <th> Collection fee per item</th>
+                            </tr>
+                            </thead>
+
+
+
+                            <tr>
+                                <td class="name">Item</td>
+                                <td>
+                                    <select name="pd-coll_method">
+                                        <option value="no" selected=""> No delivery</option>
+                                        <option value="post"> Delivery by post</option>
+
+                                        <option value="digital"> E-mail/digital download</option>
+                                        <option value="pickup"> Self-pickup</option>
+                                    </select>
+                                    <a href="#!" class="add-coll_method button_trans" style=""> Add Collection method </a>
+                                </td>
+                                <td>
+                                    <div class="region_inc-list" >
+                                        <div class="region_inc-spacer" >
+                                            <div class="input_wr">
+                                                <input type="text" name="pd-region_inc">
+                                                <input type="text" name="pd-region_inc">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#!" class="add-region_inc button_trans" style=""> Add Region / Destination </a>
+                                </td>
+                                <td>
+                                    <div class="region_exc-list" >
+                                        <div class="input_wr">
+                                            <input type="text" name="pd-region_exc">
+                                            <input type="text" name="pd-region_exc">
+                                        </div>
+
+
+
+                                    </div>
+                                    <a href="#!" class="add-region_exc button_trans" > Add Restricted regions </a>
+                                </td>
+                                <td>
+                                    <div class="fee-list" style="">
+                                        <div class="fee-set">
+                                            <div class="input-group ">
+
+                                                <input type="text" placeholder="" name="pd-fee" class="input-group-field">
+                                                <span class="input-group-label">HK$</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+                <button class="button_pink big"> Save</button>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+//= components/footer.html
+//= components/popups.html
