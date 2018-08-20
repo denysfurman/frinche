@@ -403,3 +403,19 @@
   }
 
 }
+.categories_item.error{
+  border: 2px solid #af0000!important;
+  border-radius: 5px;
+}
+.categories_item.registration_type.error{
+  border: 2px solid #af0000!important;
+  border-radius: 5px;
+}
+
+.categories_item_error_text{
+  font-size: 16px;
+  color: #af0000!important;
+}
+input.error{
+  border: 1px solid #af0000;
+}

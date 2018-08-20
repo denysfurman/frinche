@@ -348,6 +348,13 @@
         <li><a href="404.html">404.html</a></li>
         <li><a href="mail.html">Mail Box</a></li>
         <li><a href="store_label.html">Store Label</a></li>
+        <li><a href="403.html">403</a></li>
+        <li><a href="500.html">500</a></li>
+        <li><a href="502.html">502</a></li>
+        <li><a href="503.html">503</a></li>
+        <li><a href="staff_account.html">Staff Account</a></li>
+        <li><a href=" group_reg.html">Group Registrations</a></li>
+
 
     </ul>
 </div>
@@ -380,7 +387,8 @@
             <div class="input_wr">
                 <label>Category Name</label>
                 <input type="text">
-                <label for="chek_1"><input type="checkbox" id="chek_1" class="form_style"> Omit Category Name (Not available
+                <label for="chek_1"><input type="checkbox" id="chek_1" class="form_style"> Omit Category Name (Not
+                    available
                     if more than one category)</label>
             </div>
             <div class="input_wr">
@@ -414,7 +422,7 @@
             </div>
             <div class="input_wr">
                 <label>Activity Type</label>
-                <select name="#" >
+                <select name="#">
                     <option value="Please select">Please select</option>
                     <option value="select 1">Select 1</option>
                     <option value="select 2">Select 2</option>
@@ -452,7 +460,675 @@
 </div>
 
 
-<!--   ------------------   -->
+<!-- -------------- EVENT LANGUAGE ---------------- -->
+<div id="event_language" class="fsb_popup">
+    <div class="grid-x grid-padding-x">
+        <h2>Language for your event</h2>
+        <form action="" class="event_language">
+            <div class="input_wr">
+                <label>Which language do you want to use as the Primary Language for the event?</label>
+                <select>
+                    <option value="Please select">Please select</option>
+                    <option value="select 1">Select 1</option>
+                    <option value="select 2">Select 2</option>
+                    <option value="select 3">Select 2</option>
+                </select>
+                <span>Most of the settings of your event would be based on your Primary Language</span>
+            </div>
+
+            <div class="input_wr">
+                <label>Do you want to reach out to more participants by having an additional language?</label>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-10 medium-9  cell">
+                        <select>
+                            <option value="Please select">Please select</option>
+                            <option value="select 1">Select 1</option>
+                            <option value="select 2">Select 2</option>
+                            <option value="select 3">Select 2</option>
+                        </select>
+                    </div>
+
+                    <div class="large-2 medium-3  cell">
+                        <div class="categories_item_buttons">
+
+                            <a href="#"><i class="icon-rubbish-bin"></i>Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-10 medium-9  cell">
+                        <select>
+                            <option value="Please select">Please select</option>
+                            <option value="select 1">Select 1</option>
+                            <option value="select 2">Select 2</option>
+                            <option value="select 3">Select 2</option>
+                        </select>
+                    </div>
+
+                    <div class="large-2 medium-3  cell">
+                        <div class="categories_item_buttons">
+
+                            <a href="#"><i class="icon-rubbish-bin"></i>Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="button_trans small">Add additional language</a>
+                <div class="add_categories">
+                    <div class="tips">
+                        <i>i</i>
+                        <div>
+                            <span>TIPS</span>
+                            <p>Certain data and settings such as a Date, Time, Price will apply to all your language
+                                automatically.</p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="categories_type_form_buttons">
+                    <a href="#" class="button_trans big">Cancel</a>
+                    <button class="button_pink big">Save</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- -------------- EVENT LOCATION ---------------- -->
+
+
+<div id="event_location" class="fsb_popup">
+    <div class="grid-x grid-padding-x">
+        <h2>Location</h2>
+        <form action="" class="event_language">
+            <div class="input_wr">
+                <label>Location Name</label>
+                <input type="text">
+            </div>
+            <div class="input_wr">
+                <label>Country / Region</label>
+                <select>
+                    <option value="Please select">Please select</option>
+                    <option value="select 1">Select 1</option>
+                    <option value="select 2">Select 2</option>
+                    <option value="select 3">Select 2</option>
+                </select>
+
+            </div>
+
+            <div class="input_wr">
+                <label>Address Line 1</label>
+                <input type="text">
+            </div>
+
+            <div class="input_wr">
+                <label>Address Line 2</label>
+                <input type="text">
+            </div>
+
+            <div class="categories_type_form_buttons">
+                <a href="#" class="button_trans big">Cancel</a>
+                <button class="button_pink big">Save</button>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+<div id="acl_list_popup" class="fsb_popup">
+    <div class="grid-x grid-padding-x">
+        <h2>Access control list</h2>
+        <form action="" class="event_language">
+            <div class="input_wr">
+                <label>Name</label>
+                <input type="text">
+            </div>
+            <div class="input_wr">
+
+                <select>
+                    <option value="Please select">Please select</option>
+                    <option value="select 1">Select 1</option>
+                    <option value="select 2">Select 2</option>
+                    <option value="select 3">Select 2</option>
+                </select>
+
+            </div>
+
+            <div class="input_wr">
+                <label>Value action message</label>
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+
+
+            <div class="categories_type_form_buttons">
+
+                <button class="button_pink big">Save</button>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+
+<div id="reg_code_popup" class="fsb_popup">
+    <div class="grid-x grid-padding-x">
+        <h2>Edit Title</h2>
+        <form action="" class="event_language">
+
+            <div class="input_wr">
+                <label>Preset</label>
+                <select>
+                    <option value="Please select">Please select</option>
+                    <option value="select 1">Select 1</option>
+                    <option value="select 2">Select 2</option>
+                    <option value="select 3">Select 2</option>
+                </select>
+
+            </div>
+
+            <div class="input_wr">
+                <label>Layout Template</label>
+                <textarea cols="30" rows="10">
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pf-hf-inline">
+                            <span data-field="label" class="LabelText"> Label </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <input type="text" id="pf-hf-inline">
+                        <p data-field="desc" class="desc"></p>
+                    </div>
+                </textarea>
+            </div>
+
+            <div class="input_wr">
+                <label>Item Template</label>
+                <textarea cols="30" rows="10">
+
+                </textarea>
+            </div>
+
+
+            <div class="categories_type_form_buttons">
+
+                <button class="button_pink big">Save</button>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+<div id="reg_edit_popup" class="fsb_popup">
+    <div class="grid-x grid-padding-x">
+        <h2>Edit Layout</h2>
+
+        <ul class="tabs clearfix" data-tabgroup="reg_edit-tab-group">
+            <li><a href="#reg_tab1" class="active">General</a></li>
+            <li><a href="#reg_tab2">Validation</a></li>
+            <li><a href="#reg_tab3">Advanced</a></li>
+            <li><a href="#reg_tab4">Flags</a></li>
+
+        </ul>
+        <section id="reg_edit-tab-group" class="tabgroup">
+            <div id="reg_tab1">
+                <div class="row" data-fscope="required">
+                    <div class="large-12 columns">
+                        <div class="input_wr">
+                            <label for="pdef-required">
+                                <input id="pdef-required" class="form_style" type="checkbox" value="">
+                                Required
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row" data-fscope="label">
+                    <div class="large-12 columns">
+                        <div class="input_wr">
+                            <label class="large-middle" for="pdef-label">
+                                <span class="LabelText"> Label </span>
+                                <input id="pdef-label" type="text">
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row" data-fscope="desc">
+
+                    <div class="large-12 columns">
+                        <div class="input_wr">
+                            <label for="pdef-desc">Desc</label>
+                            <input id="pdef-desc" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-fscope="hint">
+
+                    <div class="large-8 columns">
+                        <div class="large-12 columns">
+                            <div class="input_wr">
+                                <label for="pdef-hint">Hint</label>
+                                <input id="pdef-hint" type="text">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="pdef-hint-template">
+                        <i data-field="hint" class="fi fi-info no-border"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div id="reg_tab2" class="input_wr">
+                <div class="row" data-fscope="match">
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-match">
+                            <span class="LabelText"> Match </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <select id="pdef-match">
+                            <option value=""> Please Select</option>
+                            <option value="email"> Email</option>
+                            <option value="url"> URL</option>
+                            <option value="hkid"> HKID</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row" data-fscope="passwd">
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-passwd">
+                            <span class="LabelText"> Set password </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <input id="pdef-passwd" type="password">
+                    </div>
+                    <div id="pdef-passwd-template" hidden="">
+                        <i data-field="passwd" class="fi fi-info no-border"></i>
+                    </div>
+                </div>
+                <div class="row" data-fscope="range_type">
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-range_type">
+                            <span class="LabelText"> Range Type </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <select id="pdef-range_type">
+                            <option value=""> Please Select</option>
+                            <option value="charlen"> Character length</option>
+                            <option value="number"> Number</option>
+                            <option value="date"> Date</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x" data-fscope="range">
+                    <div class="large-12 cell ">
+                        <label class="large-middle" for="pdef-range">
+                            <span class="LabelText"> Limit Range </span>
+                        </label>
+                    </div>
+                    <div class="large-6 medium-6 cell">
+                        <input id="pdef-range-from" type="text">
+                    </div>
+                    <div class="large-6 medium-6 cell">
+                        <input id="pdef-range-to" type="text">
+                    </div>
+                </div>
+                <div class="row" data-fscope="uniqness">
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-uniq-sid">
+                            <span class="LabelText"> Uniqueness </span>
+                        </label>
+                    </div>
+                    <div class="large-3 columns">
+                        <input id="pdef-uniq-sid" placeholder="SID" type="text">
+                    </div>
+                    <div class="large-5 columns">
+
+                        <select id="pdef-uniq-scope">
+                            <option value=""> Please Select</option>
+                            <option value="app"> Application</option>
+                            <option value="cat"> Category</option>
+                            <option value="reg"> Registration</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="row" data-fscope="file_opts">
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-file_opts">
+                            <span class="LabelText"> File Types </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <textarea id="pdef-file_opts" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="row" data-fscope="acl">
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-acl">
+                            <span class="LabelText"> Access Control List </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <select id="pdef-acl">
+                            <option value=""> Please Select</option>
+
+                            <option value="2"> qqq</option>
+
+                            <option value="1"> kjbkjh</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="row" data-fscope="equal">
+                    <div class="large-4 columns">
+                        <label class="large-middle" for="pdef-equal">
+                            <span class="LabelText"> Equal </span>
+                        </label>
+                    </div>
+                    <div class="large-8 columns">
+                        <input id="pdef-equal" type="text">
+                    </div>
+                </div>
+            </div>
+
+            <div id="reg_tab3">
+                <div class="row">
+                    <div class="large-12 columns">
+                        <p class="warning"> WARNING: Changing this might corrupt your data! </p>
+
+                    </div>
+                </div>
+                <div class="row" data-fscope="xkey" style="" data-force-show="1">
+                    <div class="large-12 columns">
+                        <label class="large-middle" for="pdef-xkey">
+                            <span class="LabelText"> Cross Key </span>
+                        </label>
+                        <input id="pdef-xkey" type="text">
+                    </div>
+
+                </div>
+                <div class="row" data-fscope="flag" style="" data-force-show="1">
+                    <div class="large-12 columns">
+                        <label class="large-middle" for="pdef-flag">
+                            <span class="LabelText"> Flag Values </span>
+                        </label>
+                        <input id="pdef-flag" type="text">
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="reg_tab4">
+                <div class="row" class="input_wr">
+                    <div class="large-6 columns">
+                        <p> Readonly on Self Edit </p>
+                        <label class="switch checked">
+                            <i class="check">on</i>
+                            <i class="power-off">off</i>
+                            <input type="checkbox" checked>
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+    </div>
+</div>
+
+
+<!-- STAFF ACCOUNT-->
+<div id="staff_account_popup" class="fsb_popup">
+    <div class="grid-x grid-padding-x">
+        <div class="large-12 medium-12 cell">
+            <h2>Stafff Access</h2>
+            <form action="">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-6 medium-6 cell">
+                        <div class="input_wr">
+                            <label>Email</label>
+                            <input type="email">
+                        </div>
+                    </div>
+                    <div class="large-6 medium-6 cell">
+                        <div class="input_wr">
+                            <label>Alias</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="store_wrap">
+                    <div class="app-group table_wrap">
+                        <table class="checkout staff_table white_table" cellspacing="0" cellpadding="0">
+                            <thead class="bottom-border">
+                            <tr>
+                                <th class="text-center">
+
+                                </th>
+                                <th WIDTH="180" class="text-center">
+                                    Read only
+                                </th>
+                                <th WIDTH="180" class="text-center">
+                                    Full Access
+                                </th>
+
+                            </tr>
+                            </thead>
+                            <tbody class="item-group level-0">
+                            <tr class="item">
+                                <td class="item-desc">
+                                    All pages
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_1">
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_1" checked>
+                                </td>
+
+                            </tr>
+                            </tbody>
+                            <tbody class="item-group level-1">
+                            <tr class="item">
+                                <td class="item-desc">
+                                    Event
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_2">
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_2" checked>
+                                </td>
+
+                            </tr>
+                            </tbody>
+
+                            <tbody class="item-group level-2">
+                            <tr class="item" data-unit-price="0.0000000000000000" data-ccy="EUR">
+                                <td class="item-desc">
+                                    Registration
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_3">
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_3" checked>
+                                </td>
+
+                            </tr>
+                            </tbody>
+                            <tbody class="item-group level-2">
+                            <tr class="item" data-unit-price="0.0000000000000000" data-ccy="EUR">
+                                <td class="item-desc">
+                                    Event Information
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_4">
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_4" checked>
+                                </td>
+
+                            </tr>
+                            </tbody>
+                            <tbody class="item-group level-2">
+                            <tr class="item" data-unit-price="0.0000000000000000" data-ccy="EUR">
+                                <td class="item-desc">
+                                    Categories & Registration
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_5">
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_5" checked>
+                                </td>
+
+                            </tr>
+                            </tbody>
+
+
+                            <tbody class="item-group level-1">
+                            <tr class="item">
+                                <td class="item-desc">
+                                    Event Page
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_6">
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_6" checked>
+                                </td>
+
+                            </tr>
+                            </tbody>
+
+                            <tbody class="item-group level-2">
+                            <tr class="item" data-unit-price="0.0000000000000000" data-ccy="EUR">
+                                <td class="item-desc">
+                                    Preview
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_7">
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_7" checked>
+                                </td>
+
+                            </tr>
+                            </tbody>
+                            <tbody class="item-group level-2">
+                            <tr class="item" data-unit-price="0.0000000000000000" data-ccy="EUR">
+                                <td class="item-desc">
+                                    Page Cust
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_8">
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_8" checked>
+                                </td>
+
+                            </tr>
+                            </tbody>
+                            <tbody class="item-group level-1">
+                            <tr class="item" data-unit-price="0.0000000000000000" data-ccy="EUR">
+                                <td class="item-desc">
+                                    Donation
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_9" checked>
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_9">
+                                </td>
+
+                            </tr>
+                            </tbody>
+                            <tbody class="item-group level-1">
+                            <tr class="item" >
+                                <td class="item-desc">
+                                    Lorem label
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_91" checked>
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_91">
+                                </td>
+
+                            </tr>
+                            </tbody>
+                            <tbody class="item-group level-2">
+                            <tr class="item" >
+                                <td class="item-desc">
+                                    Lorem label 2
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_92" checked>
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_92">
+                                </td>
+
+                            </tr>
+                            </tbody>
+                            <tbody class="item-group level-2">
+                            <tr class="item" >
+                                <td class="item-desc">
+                                    Lorem label 3
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_93" checked>
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_93">
+                                </td>
+
+                            </tr>
+                            </tbody>
+                            <tbody class="item-group level-3">
+                            <tr class="item" >
+                                <td class="item-desc">
+                                    Lorem label 4
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_94" checked>
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="form_style" name="staff_94">
+                                </td>
+
+                            </tr>
+                            </tbody>
+
+
+
+                        </table>
+                    </div>
+                </div>
+
+                <button class="button_pink big" value="checkout">Save</button>
+
+
+            </form>
+        </div>
+    </div>
+
+
+</div>
+
+
+<!-- GROUP REGISTRATION-->
 
 <div id="registration_settings_popup" class="fsb_popup">
     <div class="grid-x grid-padding-x">
@@ -461,7 +1137,8 @@
             <div class="input_wr">
                 <label>Registration Type Name</label>
                 <input type="text">
-                <label for="chek2_1"><input type="checkbox" id="chek2_1" class="form_style">Omit Registration Type Name (Not
+                <label for="chek2_1"><input type="checkbox" id="chek2_1" class="form_style">Omit Registration Type Name
+                    (Not
                     available if more than one category)</label>
             </div>
             <div class="input_wr">
@@ -481,7 +1158,7 @@
                         <input type="text" pattern="\d*" required>
                     </div>
                     <div class="medium-2 cell">
-                        <select name="#" >
+                        <select name="#">
                             <option value="Please select">USD</option>
                             <option value="select 1">EUR</option>
 
@@ -526,7 +1203,7 @@
                 <div class="grid-x grid-padding-x">
                     <div class="medium-3 cell">
                         <div class="input-group date">
-                            <input type="text" class="form-control" id="datepicker3" class="datapicker"
+                            <input type="text" class="form-control" id="datepicker10" class="datapicker"
                                    placeholder="MM/DD/YYYY">
 
                         </div>
@@ -673,8 +1350,10 @@
                                 </div>
 
                                 <div class="large-12 medium-12 cell">
-                                    <label for="chek_10"><input type="checkbox" id="chek_10" class="form_style"> Omit Category 1</label>
-                                    <label for="chek_12"><input type="checkbox" id="chek_12" class="form_style"> Omit Category 2</label>
+                                    <label for="chek_10"><input type="checkbox" id="chek_10" class="form_style"> Omit
+                                        Category 1</label>
+                                    <label for="chek_12"><input type="checkbox" id="chek_12" class="form_style"> Omit
+                                        Category 2</label>
                                 </div>
 
                             </div>
@@ -689,8 +1368,10 @@
                                 </div>
 
                                 <div class="large-12 medium-12 cell">
-                                    <label for="redio_2"><input type="radio" name="r_1" id="redio_2" class="form_style"> Omit Category 1</label>
-                                    <label for="radio_1"><input type="radio" name="r_1" id="radio_1" class="form_style"> Omit Category 2</label>
+                                    <label for="redio_2"><input type="radio" name="r_1" id="redio_2" class="form_style">
+                                        Omit Category 1</label>
+                                    <label for="radio_1"><input type="radio" name="r_1" id="radio_1" class="form_style">
+                                        Omit Category 2</label>
                                 </div>
 
                             </div>
@@ -822,8 +1503,6 @@
             </div>
 
 
-
-
             <div class="input_wr">
                 <label>Quota</label>
                 <input type="text">
@@ -881,7 +1560,7 @@
                         <div class="large-4 medium-12 cell">
                             <div class="input_wr">
                                 <label>Age Setting</label>
-                                <select name="#" >
+                                <select name="#">
                                     <option value="Please select">All genders</option>
                                     <option value="select 1">Select 1</option>
                                     <option value="select 2">Select 2</option>
@@ -920,14 +1599,14 @@
 
                             <div class="input_wr">
                                 <label>Gender Setting</label>
-                                <select name="#" >
+                                <select name="#">
                                     <option value="Please select">All genders</option>
                                     <option value="select 1">Select 1</option>
                                     <option value="select 2">Select 2</option>
                                     <option value="select 3">Select 2</option>
                                 </select>
 
-                                <select name="#" >
+                                <select name="#">
                                     <option value="Please select">All genders</option>
                                     <option value="select 1">Select 1</option>
                                     <option value="select 2">Select 2</option>
@@ -966,7 +1645,7 @@
                                 <input type="text">
                             </div>
                             <div class="large-5 cell">
-                                <select  class="  event_start">
+                                <select class="  event_start">
                                     <option value="Please select">on Event Start Day</option>
                                     <option value="select 1">Select 1</option>
                                     <option value="select 2">Select 2</option>
@@ -1007,9 +1686,12 @@
                         </div>
                         <label for="chek_5"><input type="checkbox" checked id="chek_5" class="form_style"> Allow Self
                             Edit</label>
-                        <label for="chek_6"><input type="checkbox" checked id="chek_6" class="form_style"> Allow Register
+                        <label for="chek_6"><input type="checkbox" checked id="chek_6" class="form_style"> Allow
+                            Register
                             for Others
-                            <a href="#" data-tooltip tabindex="1"  title="Fancy word for a beetle." data-position="bottom" data-alignment="left"><i class="fas fa-info-circle"></i></a> </label>
+                            <a href="#" data-tooltip tabindex="1" title="Fancy word for a beetle."
+                               data-position="bottom" data-alignment="left"><i class="fas fa-info-circle"></i></a>
+                        </label>
                     </div>
 
                 </div>
@@ -1028,432 +1710,384 @@
 
 </div>
 
-<!-- -------------- EVENT LANGUAGE ---------------- -->
-<div id="event_language" class="fsb_popup">
+
+<!--   ------------------   -->
+
+<div id="group_type_popup" class="fsb_popup">
     <div class="grid-x grid-padding-x">
-        <h2>Language for your event</h2>
-        <form action="" class="event_language">
+        <h2>Group Type Settings</h2>
+        <form action="" class="registration_settings_form">
             <div class="input_wr">
-                <label>Which language do you want to use as the Primary Language for the event?</label>
-                <select>
-                    <option value="Please select">Please select</option>
-                    <option value="select 1">Select 1</option>
-                    <option value="select 2">Select 2</option>
-                    <option value="select 3">Select 2</option>
-                </select>
-                <span>Most of the settings of your event would be based on your Primary Language</span>
+                <label>Group Type Name</label>
+                <input type="text">
+
             </div>
 
+
             <div class="input_wr">
-                <label>Do you want to reach out to more participants by having an additional language?</label>
+                <label>Registration Period</label>
                 <div class="grid-x grid-padding-x">
-                    <div class="large-10 medium-9  cell">
+                    <div class="medium-12 cell">
+                        <label >From</label>
+                    </div>
+                    <div class="medium-3 cell">
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker2" class="datapicker"
+                                   placeholder="MM/DD/YYYY">
+
+                        </div>
+                    </div>
+                    <div class="medium-3 cell">
                         <select>
-                            <option value="Please select">Please select</option>
+                            <option value="Please select">Select time</option>
                             <option value="select 1">Select 1</option>
                             <option value="select 2">Select 2</option>
                             <option value="select 3">Select 2</option>
                         </select>
                     </div>
 
-                    <div class="large-2 medium-3  cell">
-                        <div class="categories_item_buttons">
+                </div>
+                <br>
+                <div class="grid-x grid-padding-x">
+                    <div class="medium-12 cell">
+                        <label >To</label>
+                    </div>
 
-                            <a href="#"><i class="icon-rubbish-bin"></i>Remove</a>
+                    <div class="medium-3 cell">
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker3" class="datapicker"
+                                   placeholder="MM/DD/YYYY">
+
                         </div>
                     </div>
-                </div>
-                <div class="grid-x grid-padding-x">
-                    <div class="large-10 medium-9  cell">
+                    <div class="medium-3 cell">
                         <select>
-                            <option value="Please select">Please select</option>
+                            <option value="Please select">Select time</option>
                             <option value="select 1">Select 1</option>
                             <option value="select 2">Select 2</option>
                             <option value="select 3">Select 2</option>
                         </select>
                     </div>
 
-                    <div class="large-2 medium-3  cell">
-                        <div class="categories_item_buttons">
-
-                            <a href="#"><i class="icon-rubbish-bin"></i>Remove</a>
-                        </div>
-                    </div>
                 </div>
-                <a href="#" class="button_trans small">Add additional language</a>
-                <div class="add_categories">
-                    <div class="tips">
-                        <i>i</i>
-                        <div>
-                            <span>TIPS</span>
-                            <p>Certain data and settings such as a Date, Time, Price will apply to all your language automatically.</p>
-                        </div>
-                    </div>
-                    <hr>
-                </div>
-                <div class="categories_type_form_buttons">
-                    <a href="#" class="button_trans big">Cancel</a>
-                    <button class="button_pink big">Save </button>
-                </div>
-
-            </div>
-        </form>
-    </div>
-</div>
-
-<!-- -------------- EVENT LOCATION ---------------- -->
-
-
-<div id="event_location" class="fsb_popup">
-    <div class="grid-x grid-padding-x">
-        <h2>Location</h2>
-        <form action="" class="event_language">
-            <div class="input_wr">
-                <label>Location Name</label>
-                <input type="text">
-            </div>
-            <div class="input_wr">
-                <label>Country / Region</label>
-                <select>
-                    <option value="Please select">Please select</option>
-                    <option value="select 1">Select 1</option>
-                    <option value="select 2">Select 2</option>
-                    <option value="select 3">Select 2</option>
-                </select>
-                
             </div>
 
-            <div class="input_wr">
-                <label>Address Line 1</label>
-                <input type="text">
-            </div>
+            <div class="input_wr check">
 
-            <div class="input_wr">
-                <label>Address Line 2</label>
-                <input type="text">
-            </div>
-
-            <div class="categories_type_form_buttons">
-                <a href="#" class="button_trans big">Cancel</a>
-                <button class="button_pink big">Save </button>
-            </div>
-
-            
-
-            
-        </form>
-    </div>
-</div>
-
-<div id="acl_list_popup" class="fsb_popup">
-    <div class="grid-x grid-padding-x">
-        <h2>Access control list</h2>
-        <form action="" class="event_language">
-            <div class="input_wr">
-                <label>Name</label>
-                <input type="text">
-            </div>
-            <div class="input_wr">
-
-                <select>
-                    <option value="Please select">Please select</option>
-                    <option value="select 1">Select 1</option>
-                    <option value="select 2">Select 2</option>
-                    <option value="select 3">Select 2</option>
-                </select>
-
-            </div>
-
-            <div class="input_wr">
-                <label>Value action message</label>
-                <textarea  cols="30" rows="10"></textarea>
-            </div>
-
-            
-            <div class="categories_type_form_buttons">
-
-                <button class="button_pink big">Save </button>
+                <label class="bottomless">
+                    <input name="L7VIO24fYGi59pWgJJUlfh" data-sgroup="reg" type="checkbox" class="form_style">
+                    <span class="normal-size">
+								Magical Toggle for UNICEF (hide setting below)
+					</span>
+                </label>
+                <label class="bottomless">
+                    <input name="L7VIO24fYGi59pWgJJUlfh" data-sgroup="reg" type="checkbox" class="form_style">
+                    <span class="normal-size">
+								Approval before allowing members to join
+					</span>
+                </label>
             </div>
 
 
-
-
-        </form>
-    </div>
-</div>
-
-
-<div id="reg_code_popup" class="fsb_popup">
-    <div class="grid-x grid-padding-x">
-        <h2>Edit Title</h2>
-        <form action="" class="event_language">
-
-            <div class="input_wr">
-                <label>Preset</label>
-                <select>
-                    <option value="Please select">Please select</option>
-                    <option value="select 1">Select 1</option>
-                    <option value="select 2">Select 2</option>
-                    <option value="select 3">Select 2</option>
-                </select>
-
-            </div>
-
-            <div class="input_wr">
-                <label>Layout Template</label>
-                <textarea  cols="30" rows="10">
-                    <div class="large-4 columns">
-                        <label class="large-middle" for="pf-hf-inline">
-                            <span data-field="label" class="LabelText"> Label </span>
+            <div class="row">
+                <div class="large-12 columns">
+                    <h3> Available Registration Types </h3>
+                    <div class="andys-checkbox-list cat-reg-choice">
+                        <label class="bottomless">
+                            <input name="all-cats" type="checkbox" class="form_style">
+                            <span class="normal-size">
+						All race registrants
+					</span>
                         </label>
-                    </div>
-                    <div class="large-8 columns">
-                        <input type="text" id="pf-hf-inline">
-                        <p data-field="desc" class="desc"></p>
-                    </div>
-                </textarea>
-            </div>
-
-            <div class="input_wr">
-                <label>Item Template</label>
-                <textarea  cols="30" rows="10">
-
-                </textarea>
-            </div>
 
 
-            <div class="categories_type_form_buttons">
-
-                <button class="button_pink big">Save </button>
-            </div>
-
-
-
-
-        </form>
-    </div>
-</div>
-
-<div id="reg_edit_popup" class="fsb_popup">
-    <div class="grid-x grid-padding-x">
-        <h2>Edit Layout</h2>
-
-        <ul class="tabs clearfix" data-tabgroup="reg_edit-tab-group">
-            <li><a href="#reg_tab1" class="active">General</a></li>
-            <li><a href="#reg_tab2">Validation</a></li>
-            <li><a href="#reg_tab3">Advanced</a></li>
-            <li><a href="#reg_tab4">Flags</a></li>
-
-        </ul>
-        <section id="reg_edit-tab-group" class="tabgroup">
-            <div id="reg_tab1" >
-                <div class="row" data-fscope="required" >
-                    <div class="large-12 columns">
-                        <div class="input_wr">
-                            <label for="pdef-required">
-                                <input id="pdef-required" class="form_style" type="checkbox" value="">
-                                Required
+                        <div class="child-list">
+                            <label class="bottomless">
+                                <input name="thCs20TDV1iqaLCGoHDlKs" data-sgroup="cat" type="checkbox" class="form_style">
+                                <span class="normal-size">
+							Elite Race
+						</span>
                             </label>
-                        </div>
+                            <div class="child-list">
 
-                    </div>
-                </div>
-                <div class="row" data-fscope="label" >
-                    <div class="large-12 columns">
-                        <div class="input_wr">
-                            <label class="large-middle" for="pdef-label">
-                                <span class="LabelText"> Label </span>
-                                <input id="pdef-label" type="text">
-                            </label>
-                        </div>
-                    </div>
+                                <label class="bottomless">
+                                    <input name="YdXvCXY9iC3vli1uxYXyPX" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								Adult
+							</span>
+                                </label>
 
-                </div>
-                <div class="row" data-fscope="desc" >
+                                <label class="bottomless">
+                                    <input name="cabOXMUu61cVxqg7ajviju" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								Student
+							</span>
+                                </label>
 
-                    <div class="large-12 columns">
-                        <div class="input_wr">
-                            <label for="pdef-desc">Desc</label>
-                            <input id="pdef-desc" type="text">
-                        </div>
-                    </div>
-                </div>
-                <div class="row" data-fscope="hint" >
+                                <label class="bottomless">
+                                    <input name="l1ngBFzhCLmxM2l2XINFXI" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								Secret 🤭Hehe
+							</span>
+                                </label>
 
-                    <div class="large-8 columns">
-                        <div class="large-12 columns">
-                            <div class="input_wr">
-                                <label for="pdef-hint">Hint</label>
-                                <input id="pdef-hint" type="text">
                             </div>
                         </div>
 
-                    </div>
-                    <div id="pdef-hint-template" >
-                        <i data-field="hint" class="fi fi-info no-border"></i>
+                        <div class="child-list">
+                            <label class="bottomless">
+                                <input name="tZjPkcN4lDPQSGSUFjFOMy" data-sgroup="cat" type="checkbox" class="form_style">
+                                <span class="normal-size">
+							Open
+						</span>
+                            </label>
+                            <div class="child-list">
+
+                                <label class="bottomless">
+                                    <input name="L7VIO24fYGi59pWgJJUlfh" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								Adult
+							</span>
+                                </label>
+
+                                <label class="bottomless">
+                                    <input name="NEoIXaRzru8GrQgCcMFNc5" data-sgroup="reg" type="checkbox" class="form_style" class="form_style">
+                                    <span class="normal-size">
+								Student
+							</span>
+                                </label>
+
+                            </div>
+                        </div>
+
+                        <div class="child-list">
+                            <label class="bottomless">
+                                <input name="NohcmQI8oUUYHLDxBiVMiY" data-sgroup="cat" type="checkbox" class="form_style">
+                                <span class="normal-size">
+							Demo Registration
+						</span>
+                            </label>
+                            <div class="child-list">
+
+                                <label class="bottomless">
+                                    <input name="LFlVUnF2zlJjAjzllGsAzX" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								Public Ballot Entry - Marathon Races (DEMO)
+							</span>
+                                </label>
+
+                                <label class="bottomless">
+                                    <input name="J1DiMBFqdXB930rG7bTJeN" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								All Question Types
+							</span>
+                                </label>
+
+                                <label class="bottomless">
+                                    <input name="pofDcwjAZPNPVorMTAZ2Ak" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								Public Ballot Entry - Team (DEMO)
+							</span>
+                                </label>
+
+                                <label class="bottomless">
+                                    <input name="6dEYNOVqevz8WE1HuT37ff" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								Public Ballot Entry - Together (DEMO)
+							</span>
+                                </label>
+
+                            </div>
+                        </div>
+
+                        <div class="child-list">
+                            <label class="bottomless">
+                                <input name="u8WwCJEyY28V0Z4xcmwhxJ" data-sgroup="cat" type="checkbox" class="form_style">
+                                <span class="normal-size">
+							Ballot Demo
+						</span>
+                            </label>
+                            <div class="child-list">
+
+                                <label class="bottomless">
+                                    <input name="x0BzCDxhCJiLJpBgXA94xx" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								Demo 1
+							</span>
+                                </label>
+
+                                <label class="bottomless">
+                                    <input name="QTbwnjMGPWk9exslkYPkv3" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								Demo 2
+							</span>
+                                </label>
+
+                                <label class="bottomless">
+                                    <input name="wYsamSy4vl8BwNoUcZMvvV" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								Demo 3
+							</span>
+                                </label>
+
+                                <label class="bottomless">
+                                    <input name="6IVjPEVfsUB06uXXCH7xH4" data-sgroup="reg" type="checkbox" class="form_style">
+                                    <span class="normal-size">
+								Demo 4
+							</span>
+                                </label>
+
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
 
+
+                <div class="large-12 columns">
+                    <div class="table_wrap">
+                        <table id="reg-qta-view" class="white_table">
+                            <thead>
+                            <tr>
+                                <th> </th>
+                                <th width="150"> Reserved Quota </th>
+                                <th width="150"> Maximum Quota </th>
+                                <th width="150"> Approval Quota </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr data-ref="reg-quota" hidden="">
+                                <td class="name"> </td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless"> </td>
+                            </tr>
+                            <tr data-ref="YdXvCXY9iC3vli1uxYXyPX" style="">
+                                <td class="name">Adult</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="cabOXMUu61cVxqg7ajviju" style="">
+                                <td class="name">Student</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="l1ngBFzhCLmxM2l2XINFXI" style="">
+                                <td class="name">Secret 🤭Hehe</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="L7VIO24fYGi59pWgJJUlfh" style="">
+                                <td class="name">Adult</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="NEoIXaRzru8GrQgCcMFNc5" style="">
+                                <td class="name">Student</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="LFlVUnF2zlJjAjzllGsAzX" style="">
+                                <td class="name">Public Ballot Entry - Marathon Races (DEMO)</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="J1DiMBFqdXB930rG7bTJeN" style="">
+                                <td class="name">All Question Types</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="pofDcwjAZPNPVorMTAZ2Ak" style="">
+                                <td class="name">Public Ballot Entry - Team (DEMO)</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="6dEYNOVqevz8WE1HuT37ff" style="">
+                                <td class="name">Public Ballot Entry - Together (DEMO)</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="x0BzCDxhCJiLJpBgXA94xx" style="">
+                                <td class="name">Demo 1</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="QTbwnjMGPWk9exslkYPkv3" style="">
+                                <td class="name">Demo 2</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="wYsamSy4vl8BwNoUcZMvvV" style="">
+                                <td class="name">Demo 3</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr><tr data-ref="6IVjPEVfsUB06uXXCH7xH4" style="">
+                                <td class="name">Demo 4</td>
+                                <td> <input type="text" data-name="grp_qta_resv" class="uns-field bottomless" name="grp_qta_resv"> </td>
+                                <td> <input type="text" data-name="grp_qta_max" class="uns-field bottomless" name="grp_qta_max"> </td>
+                                <td> <input type="text" data-name="grp_qta_apprv" class="uns-field bottomless" name="grp_qta_apprv"> </td>
+                            </tr></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="large-12 columns">
+                    <h3>Payment </h3>
+                    <div class=" cat-reg-choice">
+                        <label class="bottomless">
+                            <input name="all-cats" type="checkbox" class="form_style">
+                            <span class="normal-size">
+						        All race registrants
+					        </span>
+                        </label>
+                    </div>
+                    <div class=" cat-reg-choice">
+                        <label class="bottomless">
+                            <input name="all-cats" type="checkbox" class="form_style">
+                            <span class="normal-size">
+
+                                 Allow Adding Members
+
+					        </span>
+                        </label>
+                        <div class="child-list">
+
+                            <label class="bottomless">
+                                <input name="L7VIO24fYGi59pWgJJUlfh" data-sgroup="reg" type="checkbox" class="form_style">
+                                <span class="normal-size">
+								Adult
+							</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class=" cat-reg-choice">
+                        <label class="bottomless">
+                            <input name="all-cats" type="checkbox" class="form_style">
+                            <span class="normal-size">
+						        All race registrants
+					        </span>
+                        </label>
+                    </div>
+                    <div class=" cat-reg-choice">
+                        <label class="bottomless">
+                            <input name="all-cats" type="checkbox" class="form_style">
+                            <span class="normal-size">
+						        All race registrants
+					        </span>
+                        </label>
+                    </div>
+                </div>
             </div>
-            <div id="reg_tab2" class="input_wr" >
-                <div class="row" data-fscope="match">
-                    <div class="large-4 columns">
-                        <label class="large-middle" for="pdef-match">
-                            <span class="LabelText"> Match </span>
-                        </label>
-                    </div>
-                    <div class="large-8 columns">
-                        <select id="pdef-match">
-                            <option value=""> Please Select </option>
-                            <option value="email"> Email </option>
-                            <option value="url"> URL </option>
-                            <option value="hkid"> HKID </option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row" data-fscope="passwd" >
-                    <div class="large-4 columns">
-                        <label class="large-middle" for="pdef-passwd">
-                            <span class="LabelText"> Set password </span>
-                        </label>
-                    </div>
-                    <div class="large-8 columns">
-                        <input id="pdef-passwd" type="password">
-                    </div>
-                    <div id="pdef-passwd-template" hidden="">
-                        <i data-field="passwd" class="fi fi-info no-border"></i>
-                    </div>
-                </div>
-                <div class="row" data-fscope="range_type" >
-                    <div class="large-4 columns">
-                        <label class="large-middle" for="pdef-range_type">
-                            <span class="LabelText"> Range Type </span>
-                        </label>
-                    </div>
-                    <div class="large-8 columns">
-                        <select id="pdef-range_type">
-                            <option value=""> Please Select </option>
-                            <option value="charlen"> Character length </option>
-                            <option value="number"> Number </option>
-                            <option value="date"> Date </option>
-                        </select>
-                    </div>
-                </div>
-                <div class="grid-x grid-padding-x" data-fscope="range">
-                    <div class="large-12 cell ">
-                        <label class="large-middle" for="pdef-range">
-                            <span class="LabelText"> Limit Range </span>
-                        </label>
-                    </div>
-                    <div class="large-6 medium-6 cell">
-                        <input id="pdef-range-from" type="text">
-                    </div>
-                    <div class="large-6 medium-6 cell">
-                        <input id="pdef-range-to" type="text">
-                    </div>
-                </div>
-                <div class="row" data-fscope="uniqness" >
-                    <div class="large-4 columns">
-                        <label class="large-middle" for="pdef-uniq-sid">
-                            <span class="LabelText"> Uniqueness </span>
-                        </label>
-                    </div>
-                    <div class="large-3 columns">
-                        <input id="pdef-uniq-sid" placeholder="SID" type="text">
-                    </div>
-                    <div class="large-5 columns">
-
-                        <select id="pdef-uniq-scope">
-                            <option value=""> Please Select </option>
-                            <option value="app"> Application </option>
-                            <option value="cat"> Category </option>
-                            <option value="reg"> Registration </option>
-                        </select>
-
-                    </div>
-                </div>
-                <div class="row" data-fscope="file_opts" >
-                    <div class="large-4 columns">
-                        <label class="large-middle" for="pdef-file_opts">
-                            <span class="LabelText"> File Types </span>
-                        </label>
-                    </div>
-                    <div class="large-8 columns">
-                        <textarea id="pdef-file_opts" rows="5"></textarea>
-                    </div>
-                </div>
-                <div class="row" data-fscope="acl" >
-                    <div class="large-4 columns">
-                        <label class="large-middle" for="pdef-acl">
-                            <span class="LabelText"> Access Control List </span>
-                        </label>
-                    </div>
-                    <div class="large-8 columns">
-                        <select id="pdef-acl">
-                            <option value=""> Please Select </option>
-
-                            <option value="2"> qqq </option>
-
-                            <option value="1"> kjbkjh </option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="row" data-fscope="equal" >
-                    <div class="large-4 columns">
-                        <label class="large-middle" for="pdef-equal">
-                            <span class="LabelText"> Equal </span>
-                        </label>
-                    </div>
-                    <div class="large-8 columns">
-                        <input id="pdef-equal" type="text">
-                    </div>
-                </div>
+            <div class="category_settings_form_buttons">
+                <a href="#" class="button_trans big">Cancel</a>
+                <button class="button_pink big">Save</button>
             </div>
 
-            <div id="reg_tab3" >
-                <div class="row">
-                    <div class="large-12 columns">
-                        <p class="warning"> WARNING: Changing this might corrupt your data! </p>
 
-                    </div>
-                </div>
-                <div class="row" data-fscope="xkey" style="" data-force-show="1">
-                    <div class="large-12 columns">
-                        <label class="large-middle" for="pdef-xkey">
-                            <span class="LabelText"> Cross Key </span>
-                        </label>
-                        <input id="pdef-xkey" type="text">
-                    </div>
-
-                </div>
-                <div class="row" data-fscope="flag" style="" data-force-show="1">
-                    <div class="large-12 columns">
-                        <label class="large-middle" for="pdef-flag">
-                            <span class="LabelText"> Flag Values </span>
-                        </label>
-                        <input id="pdef-flag" type="text">
-                    </div>
-
-                </div>
-            </div>
-
-            <div id="reg_tab4" >
-                <div class="row" class="input_wr">
-                    <div class="large-6 columns">
-                        <p> Readonly on Self Edit </p>
-                        <label class="switch checked">
-                            <i class="check">on</i>
-                            <i class="power-off">off</i>
-                            <input type="checkbox" checked>
-                        </label>
-                    </div>
-
-                </div>
-            </div>
-
-        </section>
-
-
+        </form>
     </div>
+
+
 </div>

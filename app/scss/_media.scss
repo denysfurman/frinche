@@ -340,6 +340,25 @@
     margin-top: 8px;
     margin-bottom: 14px;
   }
+  .sitebar {
+    display: none;
+  }
+  .menu-link-sitebar{
+    display: inline-block;
+  }
+  #group_type_popup {
+    .table_wrap {
+      width: 100%;
+      table {
+        width: 100%;
+        td,th{
+
+          width: 100%;
+          display: inline-block;
+        }
+      }
+    }
+  }
 }
 
 //Medium: ≥768px
@@ -672,6 +691,19 @@
   }
   .message_list{
     display: none;
+  }
+  .store_label_item_inform{
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .store_label_item_inform .store_label_price {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .sitebar {
+
+    padding: 0;
+
   }
 }
 

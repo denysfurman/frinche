@@ -122,6 +122,13 @@ $(document).ready(function() {
         $(this).toggleClass('close');
         $('.message_list').slideToggle();
     });
+    //sitebar
+
+    $('.menu-link-sitebar').click(function(e) {
+        e.preventDefault();
+        $(this).toggleClass('close');
+        $('.sitebar').slideToggle();
+    });
 
 
 
