@@ -147,7 +147,7 @@ $(document).ready(function() {
     //tabs
     $('.tabgroup > div').hide();
     $('.tabgroup > div:first-of-type').show();
-    $('.tabs a').click(function(e){
+    $('.tabs.custom_tab a').click(function(e){
         e.preventDefault();
         var $this = $(this),
             tabgroup = '#'+$this.parents('.tabs').data('tabgroup'),

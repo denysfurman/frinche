@@ -705,5 +705,19 @@
     padding: 0;
 
   }
+  .tabs {
+
+    flex-direction: column;
+  }
+  .tabs .tabs-title a {
+
+    text-align: center;
+    border-bottom: 2px solid rgba(233, 11, 143, 0.06);
+  }
+  .profile_information {
+    max-width: 100%;
+
+    column-count: 1;
+  }
 }
 
